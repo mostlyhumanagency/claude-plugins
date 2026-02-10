@@ -44,6 +44,24 @@ Load these skills as needed to answer questions accurately:
 | `diagnosing-node` | Slow endpoints, CPU spikes, memory leaks, diagnostic reports, heap snapshots |
 | `publishing-node-packages` | npm exports/types, dual ESM/CJS publishing, Node-API addons |
 | `using-webassembly-in-node` | Loading .wasm, validating exports, JS↔WASM memory exchange |
+| `using-node-worker-threads` | Worker creation, SharedArrayBuffer, message channels |
+| `using-node-file-system` | File I/O, fs/promises, watching, glob |
+| `building-node-http-server` | HTTP/HTTPS servers, request handling, middleware |
+| `using-node-child-processes` | spawn, exec, fork, IPC, signal handling |
+| `using-node-crypto` | Hashing, encryption, passwords, random bytes |
+| `using-node-sqlite` | Built-in SQLite, queries, transactions |
+| `securing-node-applications` | Permission model, input validation, security patterns |
+| `running-typescript-in-node` | Type stripping, .ts in Node, tsconfig for Node |
+
+## Peer Agents
+
+Delegate to these specialized agents when the task matches their focus:
+
+| Agent | When to Delegate |
+|---|---|
+| `node-debugger` | Runtime errors, crash diagnosis, error code debugging |
+| `node-security-auditor` | Security audit, vulnerability scanning, dependency review |
+| `node-perf-profiler` | Performance bottlenecks, memory leaks, CPU profiling |
 
 ## How to Work
 

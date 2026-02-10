@@ -86,6 +86,40 @@ node --report-on-signal --report-signal=SIGUSR2 app.js
 node --report-directory=./reports --report-on-fatalerror app.js
 ```
 
+## V8 Profiler (--prof)
+
+Profile CPU usage with V8's built-in profiler:
+
+```bash
+# Generate a V8 log file
+node --prof app.js
+
+# Process the log into human-readable output
+node --prof-process isolate-*.log > profile.txt
+```
+
+The processed output shows ticks per function, sorted by CPU time. Look for `[JavaScript]` and `[C++]` sections to identify hotspots.
+
+## Programmatic Diagnostic Reports
+
+Generate reports from code:
+
+```js
+// Enable automatic reports on crashes
+process.report.reportOnFatalError = true;
+process.report.reportOnSignal = true;
+process.report.reportOnUncaughtException = true;
+
+// Generate a report on demand
+const report = process.report.writeReport();
+console.log('Report written to:', report);
+
+// Get report as JSON object
+const data = process.report.getReport();
+console.log('Node version:', data.header.nodejsVersion);
+console.log('Event loop:', data.libuv);
+```
+
 ## Verification
 
 - Confirm report files are written where expected.

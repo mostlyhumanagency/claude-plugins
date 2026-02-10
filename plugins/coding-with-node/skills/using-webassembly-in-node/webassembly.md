@@ -70,6 +70,40 @@ const view = new Uint8Array(mem.buffer);
 view[0] = 255;
 ```
 
+## WASI (WebAssembly System Interface)
+
+Run WASM modules with system access through WASI:
+
+```js
+import { readFile } from 'node:fs/promises';
+import { WASI } from 'node:wasi';
+
+const wasi = new WASI({
+  version: 'preview1',
+  args: process.argv,
+  env: process.env,
+  preopens: { '/sandbox': './data' },
+});
+
+const wasm = await WebAssembly.compile(await readFile('./module.wasm'));
+const instance = await WebAssembly.instantiate(wasm, wasi.getImportObject());
+wasi.start(instance);
+```
+
+WASI provides sandboxed access to the file system, environment, and stdio. Use `preopens` to grant access to specific directories.
+
+## Streaming Compilation
+
+Compile WASM modules from a stream for better memory efficiency:
+
+```js
+const response = await fetch('https://example.com/module.wasm');
+const module = await WebAssembly.compileStreaming(response);
+const instance = await WebAssembly.instantiate(module);
+```
+
+`compileStreaming` compiles while downloading, reducing peak memory usage for large modules.
+
 ## Verification
 
 - Assert exports exist before calling them.

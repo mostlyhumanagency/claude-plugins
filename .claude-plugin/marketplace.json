@@ -44,8 +44,8 @@
     {
       "name": "coding-with-node",
       "source": "./plugins/coding-with-node",
-      "description": "Claude Code skills for working with Node.js v24 — core runtime, async patterns, streams, modules, testing, web APIs, and more",
-      "version": "1.1.0",
+      "description": "Claude Code plugin for Node.js v24 — 19 skills, 4 agents, 4 commands, 6 scripts, and 7 templates covering runtime, async, streams, modules, testing, crypto, security, and more",
+      "version": "2.0.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -53,7 +53,7 @@
       "homepage": "https://mostlyhuman.agency",
       "repository": "https://github.com/mostlyhumanagency/claude-plugins",
       "license": "MIT",
-      "keywords": ["node", "nodejs", "async", "streams", "modules", "testing"],
+      "keywords": ["node", "nodejs", "async", "streams", "modules", "testing", "crypto", "security", "sqlite", "workers", "http", "performance"],
       "category": "development",
       "strict": false
     },
@@ -92,8 +92,8 @@
     {
       "name": "learning-skill",
       "source": "./plugins/learning-skill",
-      "description": "Research a technology or framework and produce scoped, well-structured Claude Code skills from it — using subagents for parallel research, subtopic identification, and asset generation",
-      "version": "2.0.0",
+      "description": "Research, produce, test, evaluate, and maintain Claude Code skills — 4 skills, 5 agents, 6 commands, 7 scripts, and 12 templates for the full skill lifecycle",
+      "version": "3.0.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -101,7 +101,7 @@
       "homepage": "https://mostlyhuman.agency",
       "repository": "https://github.com/mostlyhumanagency/claude-plugins",
       "license": "MIT",
-      "keywords": ["learning", "skills", "metaskill", "research", "documentation"],
+      "keywords": ["learning", "skills", "metaskill", "research", "documentation", "testing", "evaluation", "quality", "maintenance"],
       "category": "productivity",
       "strict": false
     },

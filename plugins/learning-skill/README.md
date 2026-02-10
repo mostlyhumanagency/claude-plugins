@@ -1,58 +1,68 @@
 # learning-skill
 
-A Claude Code plugin for researching a technology or knowledge domain and producing a set of structured, well-packaged skills from it.
+Research, produce, test, evaluate, and maintain Claude Code skills — 4 skills, 5 agents, 6 commands, 7 scripts, and 12 templates for the full skill lifecycle.
 
-## What It Does
+## Skills
 
-Given a topic (framework, library, language feature), this plugin:
-1. Discovers official and community documentation sources (including llms.txt)
-2. Builds a breadth-first topic map and decomposes into scoped skill units
-3. Dispatches parallel research subagents per skill unit
-4. Writes each skill following progressive disclosure and plugin packaging best practices
-5. Validates produced skills against a quality checklist
+| Skill | Description |
+|---|---|
+| `learning-skill` | Core workflow — research a technology, decompose into skill units, produce plugin-ready skills |
+| `maintaining-skills` | Update existing skills when upstream documentation changes — staleness detection, surgical updates |
+| `publishing-skills` | Package skills into complete plugins — plugin.json, README, agents, commands, marketplace entry |
+| `reviewing-skills` | Structured quality review — structural validation, content analysis, weighted grading rubric |
+
+## Agents
+
+| Agent | Model | Description |
+|---|---|---|
+| `skill-learner` | opus | Research and skill-generation specialist — drives the full 3-phase learning workflow |
+| `skill-tester` | sonnet | Smoke-test skills by generating scenarios and running Claude CLI instances |
+| `skill-evaluator` | sonnet | A/B evaluation — measure skill impact by comparing Claude with vs without the skill |
+| `skill-quality-reviewer` | sonnet | Deep quality review with 6 weighted criteria and A-D grading rubric |
+| `skill-maintainer` | sonnet | Update existing skills when documentation sources change |
+
+## Commands
+
+| Command | Description |
+|---|---|
+| `/learn` | Research a technology and produce Claude Code skills from it |
+| `/test-skill` | Test a skill by running Claude CLI instances against generated scenarios |
+| `/evaluate-skill` | Evaluate a skill's impact by running A/B comparison (with vs without skill) |
+| `/review-skill` | Review a skill directory against the quality checklist |
+| `/update-skill` | Refresh a skill from updated documentation sources |
+| `/skill-inventory` | List all skills in a plugin with stats and validation status |
+
+## Scripts
+
+| Script | Description |
+|---|---|
+| `validate-skill.sh` | Basic structural validation (7 checks) |
+| `review-skill.sh` | Enhanced quality review (23+ checks) with --deep, --fix, --plugin-dir flags |
+| `test-skill.sh` | Smoke-test a skill via Claude CLI against generated scenarios |
+| `evaluate-skill.sh` | A/B evaluation comparing Claude with vs without a skill |
+| `diff-skill.sh` | Structured diff of two skill versions (directories or git refs) |
+| `count-skills.sh` | Plugin inventory with word counts, ref counts, and stats |
+| `generate-readme.sh` | Auto-generate README.md from plugin contents |
+
+## Templates
+
+| Template | Description |
+|---|---|
+| `researcher-prompt.md` | Subagent prompt for researching a skill topic |
+| `skill-writer-prompt.md` | Subagent prompt for writing a skill from research notes |
+| `source-discovery-prompt.md` | Subagent prompt for discovering documentation sources |
+| `router-template.md` | Template for router skill SKILL.md |
+| `source-manifest.md` | Source tracking with freshness dates |
+| `SKILL.md.template` | Fill-in-the-blanks SKILL.md skeleton |
+| `agent-template.md` | Standard agent definition skeleton |
+| `command-template.md` | Standard command definition skeleton |
+| `test-scenario-prompt.md` | Test scenario generation for skill testing |
+| `evaluation-rubric.md` | A/B evaluation rubric with 5 scoring dimensions |
+| `plugin-json-template.json` | Documented plugin.json with all fields |
+| `quality-review-prompt.md` | Quality review subagent dispatch prompt |
 
 ## Installation
 
 ```sh
 claude plugin add mostlyhumanagency/claude-plugins --path plugins/learning-skill
-```
-
-## Usage
-
-### Slash command
-
-```
-/learn svelte-5
-/learn drizzle-orm
-/learn postgresql-indexing
-```
-
-### Via agent
-
-The `skill-learner` agent is also available for delegation from other contexts.
-
-## Plugin Structure
-
-```
-learning-skill/
-├── .claude-plugin/plugin.json
-├── agents/
-│   └── skill-learner.md          # Opus-powered research + writing agent
-├── commands/
-│   └── learn.md                  # /learn slash command
-└── skills/
-    └── learning-skill/
-        ├── SKILL.md              # Main skill (~1,500 words)
-        ├── references/
-        │   ├── process-guide.md  # Detailed phase-by-phase instructions
-        │   └── quality-checklist.md
-        ├── templates/
-        │   ├── researcher-prompt.md
-        │   ├── skill-writer-prompt.md
-        │   ├── source-discovery-prompt.md
-        │   ├── router-template.md
-        │   ├── source-manifest.md
-        │   └── SKILL.md.template
-        └── scripts/
-            └── validate-skill.sh # Validates produced skills
 ```

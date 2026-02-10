@@ -1,0 +1,47 @@
+{
+  "// name": "Replace with your package name (use @scope/name for scoped packages)",
+  "name": "my-app",
+
+  "// version": "Start at 0.1.0 — bump to 1.0.0 when your API is stable",
+  "version": "0.1.0",
+
+  "description": "",
+
+  "// type": "Enable ES modules — use import/export instead of require/module.exports",
+  "type": "module",
+
+  "// exports": "Defines the public API entry points for this package",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+
+  "// engines": "Enforce minimum Node.js version — 20 is the current LTS baseline",
+  "engines": {
+    "node": ">=20"
+  },
+
+  "// files": "Only ship the dist folder to npm — keeps the package small",
+  "files": [
+    "dist"
+  ],
+
+  "scripts": {
+    "// build": "Compile TypeScript (or copy files) into dist/",
+    "build": "tsc",
+
+    "// dev": "Run with --watch for auto-restart on file changes (Node 22+)",
+    "dev": "node --watch src/index.js",
+
+    "// start": "Production entry point — no watch, no dev tools",
+    "start": "node dist/index.js",
+
+    "// test": "Use the built-in Node.js test runner (no extra dependencies)",
+    "test": "node --test",
+
+    "// lint": "Run ESLint across the source tree",
+    "lint": "eslint src/"
+  }
+}

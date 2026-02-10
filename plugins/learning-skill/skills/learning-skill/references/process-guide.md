@@ -80,6 +80,8 @@ Task tool (general-purpose):
 
 **Dispatch independent skill units in parallel.** Skills with dependencies should be researched sequentially.
 
+Use the Task tool with `subagent_type: "general-purpose"` for research subagents. Limit to 4-5 parallel subagents to avoid overwhelming context.
+
 ### Writing Skills
 
 For each skill, dispatch a writing subagent using `templates/skill-writer-prompt.md`. The writer receives research notes and produces:
@@ -146,3 +148,91 @@ bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/validate-skill.sh /path
 ```
 
 This checks word count, required sections, description format, and structural rules.
+
+---
+
+## Phase 3b: Packaging
+
+After all skills are written and validated, package the plugin for distribution.
+
+### Plugin Metadata
+
+Create `.claude-plugin/plugin.json` with required fields:
+- `name`: lowercase, hyphens only (e.g., `coding-with-svelte`)
+- `version`: semver (start at `1.0.0`)
+- `description`: one-line summary of what the plugin teaches
+- `author`: plugin author name
+- `keywords`: array of discovery terms
+
+Use `templates/plugin-json-template.json` as a starting point.
+
+### Router Skill
+
+If the plugin has 4+ subskills, create a router skill using `templates/router-template.md`. The router is a lightweight SKILL.md (<200 words) that directs the agent to the correct subskill based on the user's request.
+
+### Agent and Command Definitions
+
+Every plugin must include:
+- At least one agent definition — use `templates/agent-template.md`
+- At least one command — use `templates/command-template.md`
+
+### README and Marketplace
+
+- Generate `README.md` using `scripts/generate-readme.sh` or write manually
+- Update `marketplace.json` at the repo root if the plugin will be listed
+
+---
+
+## Phase 4: Testing and Validation
+
+After packaging, validate the complete plugin:
+
+### Step 1: Structural Review
+
+Run review-skill.sh on every produced skill:
+
+```bash
+bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/review-skill.sh <skill-dir> --plugin-dir <plugin-dir>
+```
+
+Fix all errors. Warnings are acceptable but should be addressed.
+
+### Step 2: Smoke Testing
+
+Run test-skill.sh on each skill to verify triggers activate correctly:
+
+```bash
+bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/test-skill.sh <skill-dir> --model haiku --budget 0.25
+```
+
+All scenarios should pass. If failures occur, improve the SKILL.md triggers and descriptions.
+
+### Step 3: Impact Evaluation (optional but recommended)
+
+Run evaluate-skill.sh on key skills to measure their impact:
+
+```bash
+bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/evaluate-skill.sh <skill-dir> --trials 3
+```
+
+Skills should score MARGINAL or better (delta > +0.3). Skills scoring NEUTRAL or NEGATIVE need content improvements.
+
+### Step 4: Plugin Inventory
+
+Generate the plugin inventory to verify completeness:
+
+```bash
+bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/count-skills.sh <plugin-dir>
+```
+
+---
+
+## Error Recovery
+
+Common failures and how to handle them:
+
+- **WebFetch fails**: Try alternative URLs, fall back to WebSearch, check if the site requires authentication
+- **llms.txt malformed**: Skip and use regular documentation URLs
+- **Source unavailable**: Note in source manifest, use cached/archived versions, WebSearch for mirrors
+- **Scope too broad**: Suggest decomposing into multiple plugin sets
+- **Scope too narrow**: Suggest combining with related topics

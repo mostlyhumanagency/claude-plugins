@@ -1,0 +1,36 @@
+# plugin.json Template
+
+This file goes in `.claude-plugin/plugin.json` at the root of every plugin.
+
+## Fields
+
+- **name**: Kebab-case identifier for the plugin (e.g., `coding-with-node`)
+- **version**: Semver version string
+  - **patch** (0.0.X): Bug fixes, typo corrections, minor wording changes
+  - **minor** (0.X.0): New skills, commands, agents, or features
+  - **major** (X.0.0): Breaking changes (renamed skills, restructured directories, removed features)
+- **description**: One-line summary of what the plugin provides
+- **author.name**: Author's display name
+- **author.email**: Author's contact email
+- **homepage**: URL to the plugin's documentation or landing page
+- **repository**: URL to the source code repository
+- **license**: SPDX license identifier (typically `MIT`)
+- **keywords**: Array of discovery terms for marketplace search
+
+## Template
+
+```json
+{
+  "name": "{{plugin-name}}",
+  "version": "{{semver}}",
+  "description": "{{one-line description}}",
+  "author": {
+    "name": "{{author name}}",
+    "email": "{{email}}"
+  },
+  "homepage": "{{url}}",
+  "repository": "{{github url}}",
+  "license": "MIT",
+  "keywords": ["{{keyword1}}", "{{keyword2}}"]
+}
+```

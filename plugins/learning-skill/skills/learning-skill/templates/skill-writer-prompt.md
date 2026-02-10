@@ -63,6 +63,15 @@ Task tool (general-purpose):
     - Gerund-form naming (using-, writing-, testing-)
     - Use ${CLAUDE_PLUGIN_ROOT} for intra-plugin path references
 
+    ### Plugin Completeness (when writing the final skill in a set)
+
+    After writing all individual skills, also produce:
+    - Router skill (if 4+ subskills) — use ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/templates/router-template.md
+    - At least one agent definition — use ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/templates/agent-template.md
+    - At least one command — use ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/templates/command-template.md
+    - plugin.json — use ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/templates/plugin-json-template.json
+    - README.md — generate with ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/generate-readme.sh
+
     ## Output
 
     Write all files to disk using the Write tool:

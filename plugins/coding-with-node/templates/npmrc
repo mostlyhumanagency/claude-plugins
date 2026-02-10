@@ -1,0 +1,40 @@
+# =============================================================================
+# .npmrc — shared settings for npm and pnpm
+#
+# Copy this file to .npmrc at your project root.
+# =============================================================================
+
+# === npm Settings ===
+
+# Enforce the "engines" field in package.json.
+# npm will refuse to install if the Node version doesn't match.
+engine-strict=true
+
+# Save exact versions (no ^ or ~ prefix) for fully reproducible installs.
+# Rely on lockfiles + Dependabot/Renovate for updates instead.
+save-exact=true
+
+# Skip the "funding" reminder after npm install
+fund=false
+
+# Minimum audit severity that causes `npm audit` to exit non-zero.
+# Options: info | low | moderate | high | critical
+audit-level=moderate
+
+# === pnpm Settings ===
+# pnpm reads .npmrc and honors most npm settings above, plus these:
+
+# Do NOT hoist all packages to the root node_modules.
+# This prevents "phantom dependencies" — importing packages you didn't
+# explicitly declare in package.json.
+shamefully-hoist=false
+
+# Fail the install if peer dependency requirements are not satisfied.
+strict-peer-dependencies=true
+
+# Automatically install missing peer dependencies.
+auto-install-peers=true
+
+# Use a content-addressable store for disk-efficient deduplication.
+# Uncomment and set a custom path if needed (default is ~/.local/share/pnpm/store).
+# store-dir=~/.pnpm-store

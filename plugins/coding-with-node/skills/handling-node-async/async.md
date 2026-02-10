@@ -115,6 +115,22 @@ const { Worker } = require('node:worker_threads');
 const worker = new Worker('./worker.js');
 ```
 
+## Promise.withResolvers() (v24+)
+
+Create a promise with external resolve/reject handles:
+
+```js
+const { promise, resolve, reject } = Promise.withResolvers();
+
+// Pass resolve/reject to callbacks or event handlers
+emitter.once('data', resolve);
+emitter.once('error', reject);
+
+const result = await promise;
+```
+
+Replaces the common pattern of extracting resolve/reject from the Promise constructor.
+
 ## Verification
 
 - Monitor event-loop lag under load.

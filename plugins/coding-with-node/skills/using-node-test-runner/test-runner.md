@@ -104,6 +104,80 @@ node --test --test-only
 node --test --test-reporter=spec
 ```
 
+## Snapshot Testing (v24+)
+
+Assert that output matches a stored snapshot:
+
+```js
+import { test } from 'node:test';
+
+test('renders correctly', (t) => {
+  const output = render({ name: 'world' });
+  t.assert.snapshot(output);
+});
+```
+
+Run with `--test-update-snapshots` to update stored snapshots.
+
+## Test Plan
+
+Declare the expected number of assertions:
+
+```js
+test('completes all checks', (t) => {
+  t.plan(3);
+  t.assert.ok(check1());
+  t.assert.ok(check2());
+  t.assert.ok(check3());
+});
+```
+
+The test fails if fewer or more assertions run than planned.
+
+## Lifecycle Hooks
+
+Run setup and teardown around tests:
+
+```js
+import { describe, it, before, after, beforeEach, afterEach } from 'node:test';
+
+describe('database', () => {
+  let db;
+
+  before(async () => { db = await connect(); });
+  after(async () => { await db.close(); });
+  beforeEach(async () => { await db.clear(); });
+
+  it('inserts a record', async () => {
+    await db.insert({ name: 'test' });
+    const rows = await db.findAll();
+    assert.strictEqual(rows.length, 1);
+  });
+});
+```
+
+## Mocking
+
+Mock functions, timers, and modules:
+
+```js
+import { test, mock } from 'node:test';
+
+test('calls callback', (t) => {
+  const fn = t.mock.fn();
+  doSomething(fn);
+  assert.strictEqual(fn.mock.calls.length, 1);
+});
+
+test('timer behavior', (t) => {
+  t.mock.timers.enable({ apis: ['setTimeout'] });
+  const fn = t.mock.fn();
+  setTimeout(fn, 1000);
+  t.mock.timers.tick(1000);
+  assert.strictEqual(fn.mock.calls.length, 1);
+});
+```
+
 ## Verification
 
 - Confirm tests pass in CI with `node --test`.

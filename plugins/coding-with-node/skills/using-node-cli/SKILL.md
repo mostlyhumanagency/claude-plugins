@@ -11,7 +11,7 @@ Run Node scripts, use the REPL, and handle standard I/O safely.
 
 ## Version Scope
 
-Assumes a modern Node.js runtime with built-in web APIs and type stripping; validate behavior if targeting older LTS lines.
+Covers Node.js v24 (current) through latest LTS. Features flagged as v24+ may not exist in older releases.
 
 ## When to Use
 

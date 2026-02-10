@@ -103,6 +103,49 @@ process.on('SIGINT', () => {
 });
 ```
 
+## Task Runner: node --run (v24+)
+
+Run package.json scripts directly without npm/pnpm:
+
+```bash
+node --run test
+node --run build
+node --run lint
+```
+
+Faster than `npm run` because it skips npm's overhead. Only runs scripts defined in the nearest `package.json`.
+
+## Argument Parsing: util.parseArgs()
+
+Parse CLI arguments without external dependencies:
+
+```js
+import { parseArgs } from 'node:util';
+
+const { values, positionals } = parseArgs({
+  args: process.argv.slice(2),
+  options: {
+    port: { type: 'string', short: 'p', default: '3000' },
+    verbose: { type: 'boolean', short: 'v', default: false },
+  },
+  allowPositionals: true,
+});
+
+console.log(values.port);    // '8080' from --port 8080 or -p 8080
+console.log(values.verbose); // true from --verbose or -v
+console.log(positionals);    // ['file.js'] from trailing args
+```
+
+## Running TypeScript Directly (v24+)
+
+Run `.ts` files without a build step using type stripping:
+
+```bash
+node --experimental-strip-types app.ts
+```
+
+Limitations: only strips types, does not support enums, namespaces, or parameter decorators. Use `.mts` / `.cts` for explicit module type.
+
 ## Verification
 
 - Check exit codes in shell: `echo $?`.

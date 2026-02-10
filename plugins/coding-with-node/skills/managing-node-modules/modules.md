@@ -103,6 +103,28 @@ const mod = await import('./feature.js');
 mod.run();
 ```
 
+## require(esm) Support (v24+)
+
+Node v24 allows `require()` to load synchronous ESM modules. CJS code can `require()` an ESM package if it does not use top-level `await`.
+
+```js
+// In a CJS file — works in v24 if the ESM module is synchronous
+const { helper } = require('esm-only-package');
+```
+
+This reduces the CJS/ESM interop friction significantly. Libraries no longer need to dual-publish just to support `require()` consumers.
+
+## Import Attributes
+
+Use import attributes to specify the type of non-JS imports:
+
+```js
+import data from './config.json' with { type: 'json' };
+import styles from './theme.css' with { type: 'css' };
+```
+
+Import attributes replace the older "import assertions" syntax (`assert` keyword). Node v24 supports `with` for JSON imports.
+
 ## Verification
 
 - Run `node -p "import('pkg')"` for ESM entry points.

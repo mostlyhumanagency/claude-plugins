@@ -16,3 +16,9 @@
 
 - [Any gaps in official docs that required community sources]
 - [Version-specific considerations]
+
+## Freshness Tracking
+
+- **Last checked**: [YYYY-MM-DD]
+- **Topic version at check time**: [version, e.g., "Node.js v24.1"]
+- **Next check trigger**: [when to re-check, e.g., "After next major release" or "Quarterly"]

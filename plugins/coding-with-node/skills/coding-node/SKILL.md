@@ -21,3 +21,11 @@ Pick the most specific Node.js skill and use it. Do not load broad references un
 - `using-node-web-apis` for fetch, URL/URLPattern, WebSocket client, AbortController
 - `using-webassembly-in-node` for loading .wasm, JS↔WASM memory, export validation
 - `diagnosing-node` for CPU profiles, heap snapshots, diagnostic reports, debugging
+- `using-node-worker-threads` for Worker creation, SharedArrayBuffer, Atomics, message channels, transferable objects
+- `using-node-file-system` for file I/O with fs/promises, watching, glob, recursive operations, temp files
+- `building-node-http-server` for HTTP/HTTPS servers, request handling, routing, graceful shutdown
+- `using-node-child-processes` for spawn, exec, fork, IPC messaging, signal handling, shell safety
+- `using-node-crypto` for hashing, encryption, password hashing, random bytes, Web Crypto API
+- `using-node-sqlite` for built-in SQLite database, queries, prepared statements, transactions
+- `securing-node-applications` for permission model, input validation, security patterns, dependency auditing
+- `running-typescript-in-node` for type stripping, running .ts files, tsconfig for Node

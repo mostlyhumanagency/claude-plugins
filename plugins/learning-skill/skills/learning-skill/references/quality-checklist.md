@@ -13,7 +13,7 @@ Run this checklist against every skill unit before delivery.
 
 ## SKILL.md Body
 
-- [ ] Body is 1,500-2,000 words (hard limit: 5,000)
+- [ ] Body is 1,000-2,500 words (ideal), hard limit: 5,000
 - [ ] Sections present: Overview, When to Use, Core Patterns, Quick Reference, Common Mistakes
 - [ ] One excellent code example per core pattern (complete, runnable, commented)
 - [ ] Quick reference table present and scannable
@@ -48,3 +48,17 @@ Run this checklist against every skill unit before delivery.
 - [ ] `.claude-plugin/plugin.json` has valid name, version, description
 - [ ] Paths use `${CLAUDE_PLUGIN_ROOT}` for intra-plugin references
 - [ ] No components inside `.claude-plugin/` (only plugin.json there)
+
+## Testing and Validation
+
+- [ ] Structural review passes: `review-skill.sh <skill-dir>` returns 0 errors
+- [ ] Smoke tests pass: `test-skill.sh <skill-dir>` — all scenarios PASS
+- [ ] A/B evaluation scores MARGINAL or better (delta > +0.3) if evaluated
+- [ ] Plugin inventory shows all expected skills, agents, commands
+- [ ] README.md accurately lists all components
+
+## Maintenance
+
+- [ ] Source manifest has `last-checked` date for each source
+- [ ] Source versions match current upstream versions
+- [ ] No deprecated API patterns in code examples
