@@ -1,0 +1,10 @@
+{
+  "name": "using-google-cloud-console",
+  "version": "1.1.0",
+  "description": "Claude Code skills for navigating Google Cloud Console via Chrome integration — creating projects, enabling APIs, and configuring OAuth credentials",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["google-cloud", "gcp", "oauth", "chrome"]
+}

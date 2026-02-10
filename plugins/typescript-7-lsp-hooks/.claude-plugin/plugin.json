@@ -1,0 +1,10 @@
+{
+  "name": "typescript-7-lsp-hooks",
+  "version": "1.0.0",
+  "description": "TypeScript diagnostics for Claude Code — uses tsgo (TypeScript 7 Go compiler) as a fast LSP server to surface type errors after edits",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["typescript", "lsp", "diagnostics", "type-checking"]
+}

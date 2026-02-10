@@ -1,0 +1,10 @@
+{
+  "name": "coding-with-liftkit",
+  "version": "1.0.0",
+  "description": "Claude Code skills for building UIs with LiftKit — the golden-ratio based UI framework for Next.js with optical correction, material effects, and proportional design",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["liftkit", "chainlift", "ui-framework", "golden-ratio", "nextjs", "design-system", "material-design"]
+}

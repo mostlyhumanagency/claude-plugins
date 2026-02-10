@@ -1,0 +1,10 @@
+{
+  "name": "learning-skill",
+  "version": "2.0.0",
+  "description": "Research a technology or framework and produce scoped, well-structured Claude Code skills from it — using subagents for parallel research, subtopic identification, and asset generation",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["learning", "skills", "metaskill", "research", "documentation"]
+}

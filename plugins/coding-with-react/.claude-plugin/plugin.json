@@ -1,0 +1,10 @@
+{
+  "name": "coding-with-react",
+  "version": "1.1.0",
+  "description": "Claude Code skills for building modern React applications — actions, server components, streaming SSR, compiler, patterns, and testing",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["react", "server-components", "ssr", "actions", "testing"]
+}

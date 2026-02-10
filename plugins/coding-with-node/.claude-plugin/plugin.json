@@ -1,0 +1,10 @@
+{
+  "name": "coding-with-node",
+  "version": "1.1.0",
+  "description": "Claude Code skills for working with Node.js v24 — core runtime, async patterns, streams, modules, testing, web APIs, and more",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["node", "nodejs", "async", "streams", "modules", "testing"]
+}

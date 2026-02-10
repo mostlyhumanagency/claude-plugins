@@ -1,0 +1,10 @@
+{
+  "name": "using-gmail-with-gog-cli",
+  "version": "1.1.0",
+  "description": "Claude Code skills for reading Gmail via the gog CLI — auth setup, searching, reading messages, and checking new emails",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["gmail", "email", "google", "gog"]
+}

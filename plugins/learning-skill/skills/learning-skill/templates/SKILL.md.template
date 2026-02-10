@@ -1,0 +1,55 @@
+---
+name: [skill-name]
+description: >
+  This skill should be used when the user asks to "[trigger phrase 1]",
+  "[trigger phrase 2]", or encounters [error messages / symptoms].
+  Triggers on [topic area] work involving [keywords].
+---
+
+# [Skill Name]
+
+## Overview
+
+[Core concept in 1-2 sentences. What this is and why it matters.]
+
+## When to Use
+
+- [Triggering condition 1]
+- [Triggering condition 2]
+- [Triggering condition 3]
+
+Do NOT use when [boundary condition].
+
+## Core Patterns
+
+### [Pattern Name]
+
+[What it solves in one sentence.]
+
+```[lang]
+[Complete, runnable, well-commented code example]
+```
+
+### [Pattern Name]
+
+[What it solves in one sentence.]
+
+```[lang]
+[Complete, runnable, well-commented code example]
+```
+
+## Quick Reference
+
+| Operation | Syntax/API | Notes |
+|---|---|---|
+| [operation] | `[syntax]` | [note] |
+
+## Common Mistakes
+
+| Mistake | Symptom | Fix |
+|---|---|---|
+| [what goes wrong] | [error message or behavior] | [how to fix] |
+
+## References
+
+- See `references/[name].md` for [what it contains]
