@@ -28,8 +28,8 @@
     {
       "name": "coding-with-liftkit",
       "source": "./plugins/coding-with-liftkit",
-      "description": "Claude Code skills for building UIs with LiftKit — the golden-ratio based UI framework for Next.js with optical correction, material effects, and proportional design",
-      "version": "1.0.0",
+      "description": "Claude Code plugin for LiftKit UI framework — 10 skills, 4 agents, 4 commands, 5 scripts, and 6 templates for building golden-ratio UIs with Next.js",
+      "version": "2.0.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"

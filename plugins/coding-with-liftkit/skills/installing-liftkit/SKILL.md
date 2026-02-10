@@ -1,6 +1,6 @@
 ---
 name: installing-liftkit
-description: Use when setting up LiftKit in a new or existing Next.js project, running npx liftkit init, installing components, or troubleshooting LiftKit installation
+description: This skill should be used when the user asks to "install LiftKit", "set up LiftKit", "npx liftkit init", "add LiftKit components", "npm run add", or sees errors like "Cannot find module '@/lib/css/index.css'" or "components.json not found"
 ---
 
 # Installing LiftKit

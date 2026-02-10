@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-typography
-description: Use when working with LiftKit Text, Heading components, font classes (LkFontClass), golden-ratio type scaling, fontClass prop, or typography sizing issues
+description: This skill should be used when the user asks to "use LiftKit Text", "use Heading component", "change font size", "fontClass", "golden-ratio typography", "LkFontClass", or troubleshoots font sizing issues with LiftKit
 ---
 
 # LiftKit Typography

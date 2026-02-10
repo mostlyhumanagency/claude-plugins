@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-components
-description: Use when working with LiftKit interactive components — Button, Card, Dropdown, Select, Tabs, TextInput, Navbar, Snackbar, Badge, IconButton, Image, Sticker — or when seeing LiftKit component prop errors
+description: This skill should be used when the user asks to "use LiftKit Button", "use LiftKit Card", "use Dropdown", "use Select", "use Tabs", "use TextInput", "use Navbar", "use Snackbar", "use Badge", "use IconButton", or sees LiftKit component prop errors
 ---
 
 # LiftKit Components
@@ -8,6 +8,22 @@ description: Use when working with LiftKit interactive components — Button, Ca
 ## Overview
 
 LiftKit provides 24 pre-built React components integrated with the golden-ratio design system. Components use Material Design 3 tokens, support TypeScript, and include optical correction features for perceptually accurate spacing.
+
+### Import Pattern
+
+All components import from the local registry:
+
+```tsx
+import Button from "@/registry/nextjs/components/button";
+import Card from "@/registry/nextjs/components/card";
+import TextInput from "@/registry/nextjs/components/text-input";
+import { Dropdown, DropdownTrigger, DropdownMenu, MenuItem } from "@/registry/nextjs/components/dropdown";
+import { Select, SelectTrigger, SelectMenu, SelectOption } from "@/registry/nextjs/components/select";
+import { Tabs, TabContent } from "@/registry/nextjs/components/tabs";
+import NavBar from "@/registry/nextjs/components/navbar";
+import Icon from "@/registry/nextjs/components/icon";
+import IconButton from "@/registry/nextjs/components/icon-button";
+```
 
 ## When to Use
 

@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-materials
-description: Use when applying LiftKit material effects (glass, flat, rubber), working with MaterialLayer, StateLayer components, optical corrections (opticalCorrection, opticIconShift), or debugging visual layering issues
+description: This skill should be used when the user asks to "add glass effect", "use MaterialLayer", "use StateLayer", "apply material", "optical correction", "opticIconShift", "glass", "flat", "rubber" material, or debugs visual layering issues in LiftKit
 ---
 
 # LiftKit Materials & Optical Corrections

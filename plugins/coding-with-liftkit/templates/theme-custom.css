@@ -1,0 +1,110 @@
+/* LiftKit Custom Theme Overrides
+ * Copy this to app/theme-custom.css and import it AFTER the LiftKit CSS:
+ *
+ *   // In globals.css:
+ *   @import url("@/lib/css/index.css");    /* LiftKit base styles first */
+ *   @import url("./theme-custom.css");      /* Your overrides second */
+ *
+ * How LiftKit tokens work:
+ * - Token format: --light__tokenname_clv  or  --dark__tokenname_clv
+ * - The "_clv" suffix is a LiftKit convention (color value)
+ * - Light mode tokens are applied by default
+ * - Dark mode tokens are applied when [data-theme="dark"] is set on <html>
+ *
+ * Token naming follows Material Design 3:
+ * - primary, onprimary, primarycontainer, onprimarycontainer
+ * - secondary, onsecondary, secondarycontainer, onsecondarycontainer
+ * - tertiary, ontertiary, tertiarycontainer, ontertiarycontainer
+ * - surface, onsurface, surfacecontainer, surfacecontainerlow, surfacecontainerhigh
+ * - error, onerror, errorcontainer, onerrorcontainer
+ * - outline, outlinevariant
+ *
+ * Tip: Only override the tokens you need. LiftKit's defaults are carefully
+ * balanced — changing one token (e.g., primary) is usually enough to
+ * rebrand the entire app.
+ */
+
+/* --------------------------------------------------------------------------
+ * Light Mode Overrides
+ * These apply when the theme is "light" (default).
+ * -------------------------------------------------------------------------- */
+:root {
+  /* Primary: the main brand color, used for buttons, links, active states.
+   * Change this single token to rebrand most of the UI. */
+  --light__primary_clv: #1a6b52;
+  --light__onprimary_clv: #ffffff;
+
+  /* Primary Container: softer tint of primary, used for card backgrounds
+   * and filled containers that need to reference the brand color. */
+  --light__primarycontainer_clv: #a4f2d4;
+  --light__onprimarycontainer_clv: #002117;
+
+  /* Secondary: supporting color for less prominent UI elements.
+   * Chips, secondary buttons, and supporting text use these tokens. */
+  --light__secondary_clv: #4c6359;
+  --light__onsecondary_clv: #ffffff;
+  --light__secondarycontainer_clv: #cfe9db;
+  --light__onsecondarycontainer_clv: #092017;
+
+  /* Tertiary: accent color for highlights, badges, and visual variety.
+   * Use sparingly to draw attention to specific elements. */
+  --light__tertiary_clv: #3f6374;
+  --light__ontertiary_clv: #ffffff;
+  --light__tertiarycontainer_clv: #c2e8fc;
+  --light__ontertiarycontainer_clv: #001f2a;
+
+  /* Surface: the background color for the app and elevated surfaces.
+   * surfacecontainer variants create elevation hierarchy:
+   *   lowest < low < (default) < high < highest */
+  --light__surface_clv: #fbfdf8;
+  --light__onsurface_clv: #191c1a;
+  --light__surfacecontainerlowest_clv: #ffffff;
+  --light__surfacecontainerlow_clv: #f1f4ef;
+  --light__surfacecontainer_clv: #ecefe9;
+  --light__surfacecontainerhigh_clv: #e6e9e4;
+  --light__surfacecontainerhighest_clv: #e0e3de;
+
+  /* Outline: borders, dividers, and input field strokes. */
+  --light__outline_clv: #717971;
+  --light__outlinevariant_clv: #c0c9c0;
+}
+
+/* --------------------------------------------------------------------------
+ * Dark Mode Overrides
+ * These apply when [data-theme="dark"] is set on <html> by ThemeProvider.
+ * Dark mode tokens should have higher lightness than their light counterparts
+ * for the primary/secondary/tertiary colors (they sit on dark backgrounds).
+ * -------------------------------------------------------------------------- */
+[data-theme="dark"] {
+  /* Primary in dark mode: lighter tint of the brand color for readability. */
+  --dark__primary_clv: #88d6b9;
+  --dark__onprimary_clv: #00382a;
+
+  --dark__primarycontainer_clv: #00513d;
+  --dark__onprimarycontainer_clv: #a4f2d4;
+
+  /* Secondary */
+  --dark__secondary_clv: #b3cdc0;
+  --dark__onsecondary_clv: #1f352b;
+  --dark__secondarycontainer_clv: #354c41;
+  --dark__onsecondarycontainer_clv: #cfe9db;
+
+  /* Tertiary */
+  --dark__tertiary_clv: #a6cce0;
+  --dark__ontertiary_clv: #073544;
+  --dark__tertiarycontainer_clv: #264b5b;
+  --dark__ontertiarycontainer_clv: #c2e8fc;
+
+  /* Surface: dark backgrounds with subtle elevation differences. */
+  --dark__surface_clv: #111412;
+  --dark__onsurface_clv: #e0e3de;
+  --dark__surfacecontainerlowest_clv: #0c0f0d;
+  --dark__surfacecontainerlow_clv: #191c1a;
+  --dark__surfacecontainer_clv: #1d201e;
+  --dark__surfacecontainerhigh_clv: #282b28;
+  --dark__surfacecontainerhighest_clv: #323633;
+
+  /* Outline */
+  --dark__outline_clv: #8b938b;
+  --dark__outlinevariant_clv: #414942;
+}

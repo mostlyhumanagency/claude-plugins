@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-utility-classes
-description: Use when applying LiftKit utility classes for spacing, colors, borders, shadows, responsive breakpoints, or when seeing class naming conflicts — NOT compatible with Tailwind
+description: This skill should be used when the user asks to "use LiftKit utility classes", "add spacing classes", "responsive visibility", "LiftKit CSS classes", or sees class naming conflicts — NOT compatible with Tailwind
 ---
 
 # LiftKit Utility Classes

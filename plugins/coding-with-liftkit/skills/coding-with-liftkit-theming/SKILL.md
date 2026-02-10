@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-theming
-description: Use when working with LiftKit themes, colors, dark mode, Theme/ThemeController components, CSS custom properties (--light__*_clv, --dark__*_clv), or color token errors
+description: This skill should be used when the user asks to "customize LiftKit theme", "add dark mode", "change colors", "use ThemeProvider", "ThemeController", "color tokens", or sees CSS variable errors like "--light__*_clv" or "--dark__*_clv"
 ---
 
 # LiftKit Theming
@@ -58,6 +58,45 @@ Manual override with data attributes:
 ```html
 <html data-color-mode="dark">
 <div data-force-dark-mode="true">
+```
+
+### Custom Theme Colors
+
+Override MD3 tokens with CSS custom properties:
+
+```css
+:root {
+  --light__primary_clv: #6750A4;
+  --light__onprimary_clv: #FFFFFF;
+  --light__secondary_clv: #625B71;
+  --light__tertiary_clv: #7D5260;
+  --dark__primary_clv: #D0BCFF;
+  --dark__onprimary_clv: #381E72;
+}
+```
+
+### Programmatic Theme Switching
+
+```tsx
+"use client";
+import { useState } from "react";
+
+function ThemeToggle() {
+  const [isDark, setIsDark] = useState(false);
+
+  return (
+    <Button
+      label={isDark ? "Light Mode" : "Dark Mode"}
+      onClick={() => {
+        document.documentElement.setAttribute(
+          "data-color-mode",
+          isDark ? "light" : "dark"
+        );
+        setIsDark(!isDark);
+      }}
+    />
+  );
+}
 ```
 
 ## Quick Reference

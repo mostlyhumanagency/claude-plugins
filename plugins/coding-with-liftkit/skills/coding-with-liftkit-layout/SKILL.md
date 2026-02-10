@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-layout
-description: Use when building page layouts with LiftKit Section, Container, Grid, Row, Column components, or when troubleshooting page structure and responsive layout issues
+description: This skill should be used when the user asks to "build a page layout", "use Section", "use Container", "use Grid", "use Row", "use Column", "responsive layout", or troubleshoots page structure issues with LiftKit
 ---
 
 # LiftKit Layout
@@ -74,6 +74,30 @@ CSS Grid with convenience props:
   {items.map(item => <Card key={item.id}>...</Card>)}
 </Grid>
 ```
+
+### Responsive Behavior
+
+Grid's `autoResponsive` adapts columns based on viewport:
+
+| Viewport | Behavior |
+|---|---|
+| Desktop (>= 992px) | Full column count |
+| Tablet (768-991px) | Columns halved (4 -> 2, 3 -> 2) |
+| Mobile (< 768px) | Single column stack |
+
+Without `autoResponsive`, Grid maintains its column count at all sizes. Use responsive utility classes for manual control:
+
+```tsx
+<Grid columns={3} gap="md" autoResponsive>
+  {/* Automatically adapts from 3 -> 2 -> 1 columns */}
+</Grid>
+```
+
+Nesting rules:
+- Sections can contain other Sections (for nested padding)
+- Grid can contain Cards, Rows, Columns, or any content
+- Never nest Container inside Container
+- Row/Column can nest inside Grid cells
 
 ### Row and Column (Flexbox)
 

@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit
-description: Use when working with LiftKit UI framework and unsure which subskill applies. Routes to the most specific LiftKit skill.
+description: This skill should be used when the user asks to "use LiftKit", "build with LiftKit", "Chainlift UI", or mentions LiftKit without specifying a subskill. Routes to the most specific LiftKit skill.
 ---
 
 # LiftKit
@@ -20,5 +20,7 @@ LiftKit is an open-source UI framework by Chainlift that derives all proportions
 | coding-with-liftkit-typography | Working with Text, Heading, font classes, golden-ratio type scaling |
 | coding-with-liftkit-materials | Applying material effects (glass, flat, rubber), MaterialLayer, StateLayer, optical corrections |
 | coding-with-liftkit-utility-classes | Using LiftKit utility classes for spacing, colors, borders, shadows, responsive breakpoints |
+| coding-with-liftkit-forms | Building forms with TextInput, Select, validation patterns, login/signup/settings forms |
+| coding-with-liftkit-recipes | Complete UI patterns — hero sections, auth pages, dashboards, settings pages, card grids, sidebar layouts |
 
 If unsure, start with **installing-liftkit** for setup or **coding-with-liftkit-components** for building UI.
