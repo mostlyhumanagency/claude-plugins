@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "next/core-js",
+  "compilerOptions": {
+    // Type Safety
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    // Module System (Next.js manages these, but be explicit)
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    // JSX
+    "jsx": "preserve",
+
+    // Target
+    "target": "es2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    // Performance
+    "skipLibCheck": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./.next/.tsbuildinfo",
+
+    // Paths (adjust to your project)
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    // Output (Next.js handles emit, but declaration can be useful)
+    "noEmit": true,
+
+    // Additional Safety
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": true,
+
+    // Interop
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}

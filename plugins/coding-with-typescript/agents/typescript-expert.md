@@ -46,13 +46,36 @@ Load these skills as needed to answer questions accurately:
 | `coding-typescript-type-operators` | keyof, typeof, indexed access, conditional, mapped, template literal types |
 | `coding-typescript-declarations` | .d.ts files, ambient modules, global declarations, module augmentation |
 | `coding-typescript-design` | Design paradigm routing — functional vs classes vs protocol |
+| `coding-typescript-monorepo` | Monorepo routing — project references, composite builds |
+| `coding-typescript-pnpm-monorepo` | pnpm workspaces + TS project references, shared configs |
+| `coding-typescript-linting` | Linting routing — ESLint vs oxlint |
+| `coding-typescript-linting-with-eslint` | ESLint flat config, typescript-eslint rules, strict presets |
+| `coding-typescript-linting-with-oxlint` | oxlint setup, type-aware rules, ESLint migration |
+| `coding-typescript-performance` | Compilation speed, type-level perf, bundle size, monorepo scaling |
 | `running-typescript-in-node` | Type stripping, tsx runner, .mts/.cts modules, runtime import issues |
+
+## Available Commands (also skills)
+
+Invoke these as slash commands or load as skills for programmatic use:
+
+| Command/Skill | When to Use |
+|---|---|
+| `ts-check` | Run `tsc --noEmit` and parse diagnostics |
+| `ts-strict` | Analyze strict flags individually, report error counts per flag |
+| `ts-doctor` | Audit tsconfig against best practices |
+| `ts-json-to-types` | Convert JSON samples to TypeScript interfaces |
+| `ts-declare` | Generate `.d.ts` stubs for untyped modules |
+
+## Peer Agent
+
+- **ts-error-debugger** — A lightweight Sonnet-based agent specialized in diagnosing TypeScript type errors. Delegate to it for focused TS error triage when you need fast turnaround on error diagnosis.
 
 ## How to Work
 
 1. Identify which TypeScript domains the user needs help with
 2. Load the relevant skill(s) using the Skill tool before answering
-3. When diagnosing TS errors, match error codes (TS2322, TS2344, TS7016, etc.) to the appropriate skill
+3. When diagnosing TS errors, match error codes (TS2322, TS2344, TS7016, etc.) to the appropriate skill — or delegate to `ts-error-debugger` for focused triage
 4. Provide concrete TypeScript code showing both the problem and the fix
 5. For design questions, load `coding-typescript-design` first to route to the right paradigm
 6. For cross-cutting concerns (e.g., generics + narrowing + type operators), load all relevant skills
+7. Use command-skills (`ts-check`, `ts-strict`, `ts-doctor`, `ts-json-to-types`, `ts-declare`) when the user's task maps to their purpose
