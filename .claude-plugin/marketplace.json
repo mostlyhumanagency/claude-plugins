@@ -16,7 +16,7 @@
         "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-typescript.git"
       },
       "description": "Claude Code skills for writing safe, modern TypeScript — core patterns, async, generics, narrowing, validation, tooling, and more",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -35,7 +35,7 @@
         "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-react.git"
       },
       "description": "Claude Code skills for building modern React applications — actions, server components, streaming SSR, compiler, patterns, and testing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -54,7 +54,7 @@
         "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-node.git"
       },
       "description": "Claude Code skills for working with Node.js v24 — core runtime, async patterns, streams, modules, testing, web APIs, and more",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -73,7 +73,7 @@
         "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-arktype.git"
       },
       "description": "Claude Code skills for validating data with ArkType — schemas, morphs, scopes, errors, and integrations",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -92,7 +92,7 @@
         "url": "https://github.com/mostlyhumanagency/claude-plugin-learning-topic.git"
       },
       "description": "Research a technology or knowledge domain and produce a set of scoped Claude Code skills from it",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -111,7 +111,7 @@
         "url": "https://github.com/mostlyhumanagency/claude-plugin-using-gmail.git"
       },
       "description": "Claude Code skills for reading Gmail via the gog CLI — auth setup, searching, reading messages, and checking new emails",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -130,7 +130,7 @@
         "url": "https://github.com/mostlyhumanagency/claude-plugin-using-google-cloud-console.git"
       },
       "description": "Claude Code skills for navigating Google Cloud Console via Chrome integration — creating projects, enabling APIs, and configuring OAuth credentials",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
