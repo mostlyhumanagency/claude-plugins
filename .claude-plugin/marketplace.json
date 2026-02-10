@@ -1,0 +1,164 @@
+{
+  "name": "mostlyhumanagency",
+  "owner": {
+    "name": "Mostly Human Agency",
+    "email": "dario.farzati@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills for TypeScript, React, Node.js, ArkType, Gmail, Google Cloud, and more",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "coding-typescript",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-typescript.git"
+      },
+      "description": "Claude Code skills for writing safe, modern TypeScript — core patterns, async, generics, narrowing, validation, tooling, and more",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-coding-typescript",
+      "license": "MIT",
+      "keywords": ["typescript", "type-safety", "patterns", "validation", "async", "generics", "narrowing"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "coding-react",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-react.git"
+      },
+      "description": "Claude Code skills for building modern React applications — actions, server components, streaming SSR, compiler, patterns, and testing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-coding-react",
+      "license": "MIT",
+      "keywords": ["react", "server-components", "ssr", "actions", "testing"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "coding-node",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-node.git"
+      },
+      "description": "Claude Code skills for working with Node.js v24 — core runtime, async patterns, streams, modules, testing, web APIs, and more",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-coding-node",
+      "license": "MIT",
+      "keywords": ["node", "nodejs", "async", "streams", "modules", "testing"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "coding-arktype",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-arktype.git"
+      },
+      "description": "Claude Code skills for validating data with ArkType — schemas, morphs, scopes, errors, and integrations",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-coding-arktype",
+      "license": "MIT",
+      "keywords": ["arktype", "validation", "typescript", "schemas"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "learning-topic",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-learning-topic.git"
+      },
+      "description": "Research a technology or knowledge domain and produce a set of scoped Claude Code skills from it",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-learning-topic",
+      "license": "MIT",
+      "keywords": ["learning", "skills", "metaskill", "research", "documentation"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "using-gmail",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-using-gmail.git"
+      },
+      "description": "Claude Code skills for reading Gmail via the gog CLI — auth setup, searching, reading messages, and checking new emails",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-using-gmail",
+      "license": "MIT",
+      "keywords": ["gmail", "email", "google", "gog"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "using-google-cloud-console",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-using-google-cloud-console.git"
+      },
+      "description": "Claude Code skills for navigating Google Cloud Console via Chrome integration — creating projects, enabling APIs, and configuring OAuth credentials",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-using-google-cloud-console",
+      "license": "MIT",
+      "keywords": ["google-cloud", "gcp", "oauth", "chrome"],
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "typescript-7-lsp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-typescript-7-lsp.git"
+      },
+      "description": "TypeScript diagnostics for Claude Code — uses tsgo (TypeScript 7 Go compiler) as a fast LSP server to surface type errors after edits",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-typescript-7-lsp",
+      "license": "MIT",
+      "keywords": ["typescript", "lsp", "diagnostics", "type-checking"],
+      "category": "development"
+    }
+  ]
+}
