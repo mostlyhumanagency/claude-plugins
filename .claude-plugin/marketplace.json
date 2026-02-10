@@ -5,7 +5,7 @@
     "email": "dario.farzati@gmail.com"
   },
   "metadata": {
-    "description": "Claude Code skills for TypeScript, React, Node.js, ArkType, Gmail, Google Cloud, and more",
+    "description": "Claude Code skills for TypeScript, React, Node.js, ArkType, LiftKit, Gmail, Google Cloud, and more",
     "version": "1.0.0"
   },
   "plugins": [
@@ -140,6 +140,25 @@
       "license": "MIT",
       "keywords": ["google-cloud", "gcp", "oauth", "chrome"],
       "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "coding-with-liftkit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mostlyhumanagency/claude-plugin-coding-with-liftkit.git"
+      },
+      "description": "Claude Code skills for building UIs with LiftKit — the golden-ratio based UI framework for Next.js with optical correction, material effects, and proportional design",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugin-coding-with-liftkit",
+      "license": "MIT",
+      "keywords": ["liftkit", "chainlift", "ui-framework", "golden-ratio", "nextjs", "design-system"],
+      "category": "development",
       "strict": false
     },
     {
