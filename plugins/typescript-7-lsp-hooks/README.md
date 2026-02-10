@@ -1,4 +1,4 @@
-# claude-plugin-typescript-7-lsp
+# typescript-7-lsp-hooks
 
 TypeScript diagnostics for Claude Code — uses tsgo (TypeScript 7 Go compiler) as a fast LSP server to surface type errors after edits.
 
@@ -14,20 +14,8 @@ Claude Code has native LSP support, but it runs asynchronously — diagnostics a
 
 ## Installation
 
-### As a plugin (recommended)
-
 ```sh
-/plugin marketplace add mostlyhumanagency/claude-plugins
-/plugin install typescript-7-lsp@mostlyhumanagency
-```
-
-### Manual
-
-Place this directory inside `~/.claude/plugins/`:
-
-```sh
-git clone https://github.com/mostlyhumanagency/claude-plugin-typescript-7-lsp.git
-ln -s "$(pwd)/claude-plugin-typescript-7-lsp" ~/.claude/plugins/typescript-7-lsp
+claude plugin add mostlyhumanagency/claude-plugins --path plugins/typescript-7-lsp-hooks
 ```
 
 ## Prerequisites

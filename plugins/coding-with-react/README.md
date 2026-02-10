@@ -1,4 +1,4 @@
-# skill-coding-react
+# coding-with-react
 
 A Claude Code plugin for building modern React applications — actions, server components, streaming SSR, compiler, patterns, and testing.
 
@@ -17,19 +17,6 @@ A Claude Code plugin for building modern React applications — actions, server 
 
 ## Installation
 
-### As a plugin (recommended)
-
 ```sh
-/plugin marketplace add mostlyhumanagency/skill-coding-react
-```
-
-### Manual
-
-Symlink each skill directory into `~/.claude/skills/`:
-
-```sh
-git clone <repo-url>
-for skill in skills/coding-react skills/using-react-* skills/testing-react; do
-  ln -s "$(pwd)/$skill" ~/.claude/skills/$(basename "$skill")
-done
+claude plugin add mostlyhumanagency/claude-plugins --path plugins/coding-with-react
 ```

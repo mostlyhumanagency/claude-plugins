@@ -1,4 +1,4 @@
-# skill-using-google-cloud-console
+# using-google-cloud-console
 
 A Claude Code plugin for navigating Google Cloud Console via Chrome integration — creating projects, enabling APIs, and configuring OAuth credentials.
 
@@ -13,21 +13,8 @@ A Claude Code plugin for navigating Google Cloud Console via Chrome integration 
 
 ## Installation
 
-### As a plugin (recommended)
-
 ```sh
-/plugin marketplace add mostlyhumanagency/skill-using-google-cloud-console
-```
-
-### Manual
-
-Symlink each skill directory into `~/.claude/skills/`:
-
-```sh
-git clone <repo-url>
-for skill in skills/*; do
-  ln -s "$(pwd)/$skill" ~/.claude/skills/$(basename "$skill")
-done
+claude plugin add mostlyhumanagency/claude-plugins --path plugins/using-google-cloud-console
 ```
 
 ## Prerequisites

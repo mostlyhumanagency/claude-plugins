@@ -1,4 +1,4 @@
-# skill-using-gmail
+# using-gmail-with-gog-cli
 
 A Claude Code plugin for reading Gmail via the `gog` CLI — auth setup, searching, reading messages, and checking new emails.
 
@@ -12,21 +12,8 @@ A Claude Code plugin for reading Gmail via the `gog` CLI — auth setup, searchi
 
 ## Installation
 
-### As a plugin (recommended)
-
 ```sh
-/plugin marketplace add mostlyhumanagency/skill-using-gmail
-```
-
-### Manual
-
-Symlink each skill directory into `~/.claude/skills/`:
-
-```sh
-git clone <repo-url>
-for skill in skills/using-gog-gmail skills/setting-up-gog-auth skills/reading-gmail; do
-  ln -s "$(pwd)/$skill" ~/.claude/skills/$(basename "$skill")
-done
+claude plugin add mostlyhumanagency/claude-plugins --path plugins/using-gmail-with-gog-cli
 ```
 
 ## Prerequisites

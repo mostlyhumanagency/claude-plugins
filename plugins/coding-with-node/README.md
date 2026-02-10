@@ -1,4 +1,4 @@
-# skill-coding-node
+# coding-with-node
 
 A Claude Code plugin for working with Node.js v24 — core runtime, async patterns, streams, modules, testing, web APIs, and more.
 
@@ -15,24 +15,11 @@ A Claude Code plugin for working with Node.js v24 — core runtime, async patter
 | `using-node-cli` | Running scripts, REPL, stdin/stdout, env files, watch mode, exit codes |
 | `using-node-test-runner` | node:test, filtering, sharding, reporters, coverage |
 | `using-node-web-apis` | fetch, URL/URLPattern, WebSocket client, AbortController |
-| `using-webassembly-in-node` | Loading .wasm, JS↔WASM memory and data exchange, export validation |
+| `using-webassembly-in-node` | Loading .wasm, JS-WASM memory and data exchange, export validation |
 | `diagnosing-node` | CPU profiles, heap snapshots, diagnostic reports, inspector debugging |
 
 ## Installation
 
-### As a plugin (recommended)
-
 ```sh
-/plugin marketplace add mostlyhumanagency/skill-coding-node
-```
-
-### Manual
-
-Symlink each skill directory into `~/.claude/skills/`:
-
-```sh
-git clone <repo-url>
-for skill in skills/*/; do
-  ln -s "$(pwd)/$skill" ~/.claude/skills/$(basename "$skill")
-done
+claude plugin add mostlyhumanagency/claude-plugins --path plugins/coding-with-node
 ```

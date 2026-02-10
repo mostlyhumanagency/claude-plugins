@@ -1,4 +1,4 @@
-# skill-coding-typescript
+# coding-with-typescript
 
 A Claude Code plugin for writing safe, modern TypeScript — core patterns, async, generics, narrowing, validation, tooling, and more.
 
@@ -23,19 +23,6 @@ A Claude Code plugin for writing safe, modern TypeScript — core patterns, asyn
 
 ## Installation
 
-### As a plugin (recommended)
-
 ```sh
-/plugin marketplace add mostlyhumanagency/skill-coding-typescript
-```
-
-### Manual
-
-Symlink each skill directory into `~/.claude/skills/`:
-
-```sh
-git clone <repo-url>
-for skill in skills/coding-typescript* skills/running-typescript-in-node; do
-  ln -s "$(pwd)/$skill" ~/.claude/skills/$(basename "$skill")
-done
+claude plugin add mostlyhumanagency/claude-plugins --path plugins/coding-with-typescript
 ```
