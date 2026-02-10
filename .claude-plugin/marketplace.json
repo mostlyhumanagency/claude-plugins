@@ -11,11 +11,7 @@
   "plugins": [
     {
       "name": "coding-with-arktype",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/coding-with-arktype"
-      },
+      "source": "./plugins/coding-with-arktype",
       "description": "Claude Code skills for validating data with ArkType — schemas, morphs, scopes, errors, and integrations",
       "version": "1.1.0",
       "author": {
@@ -31,11 +27,7 @@
     },
     {
       "name": "coding-with-liftkit",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/coding-with-liftkit"
-      },
+      "source": "./plugins/coding-with-liftkit",
       "description": "Claude Code skills for building UIs with LiftKit — the golden-ratio based UI framework for Next.js with optical correction, material effects, and proportional design",
       "version": "1.0.0",
       "author": {
@@ -51,11 +43,7 @@
     },
     {
       "name": "coding-with-node",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/coding-with-node"
-      },
+      "source": "./plugins/coding-with-node",
       "description": "Claude Code skills for working with Node.js v24 — core runtime, async patterns, streams, modules, testing, web APIs, and more",
       "version": "1.1.0",
       "author": {
@@ -71,11 +59,7 @@
     },
     {
       "name": "coding-with-react",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/coding-with-react"
-      },
+      "source": "./plugins/coding-with-react",
       "description": "Claude Code skills for building modern React applications — actions, server components, streaming SSR, compiler, patterns, and testing",
       "version": "1.1.0",
       "author": {
@@ -91,11 +75,7 @@
     },
     {
       "name": "coding-with-typescript",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/coding-with-typescript"
-      },
+      "source": "./plugins/coding-with-typescript",
       "description": "Claude Code skills for writing safe, modern TypeScript — core patterns, async, generics, narrowing, validation, tooling, and more",
       "version": "1.2.0",
       "author": {
@@ -111,11 +91,7 @@
     },
     {
       "name": "learning-skill",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/learning-skill"
-      },
+      "source": "./plugins/learning-skill",
       "description": "Research a technology or framework and produce scoped, well-structured Claude Code skills from it — using subagents for parallel research, subtopic identification, and asset generation",
       "version": "2.0.0",
       "author": {
@@ -131,11 +107,7 @@
     },
     {
       "name": "typescript-7-lsp-hooks",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/typescript-7-lsp-hooks"
-      },
+      "source": "./plugins/typescript-7-lsp-hooks",
       "description": "TypeScript diagnostics for Claude Code — uses tsgo (TypeScript 7 Go compiler) as a fast LSP server to surface type errors after edits",
       "version": "1.0.0",
       "author": {
@@ -150,11 +122,7 @@
     },
     {
       "name": "using-gmail-with-gog-cli",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/using-gmail-with-gog-cli"
-      },
+      "source": "./plugins/using-gmail-with-gog-cli",
       "description": "Claude Code skills for reading Gmail via the gog CLI — auth setup, searching, reading messages, and checking new emails",
       "version": "1.1.0",
       "author": {
@@ -170,11 +138,7 @@
     },
     {
       "name": "using-google-cloud-console",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/mostlyhumanagency/claude-plugins.git",
-        "path": "plugins/using-google-cloud-console"
-      },
+      "source": "./plugins/using-google-cloud-console",
       "description": "Claude Code skills for navigating Google Cloud Console via Chrome integration — creating projects, enabling APIs, and configuring OAuth credentials",
       "version": "1.1.0",
       "author": {
