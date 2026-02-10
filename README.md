@@ -6,7 +6,7 @@ Claude Code plugin monorepo by [Mostly Human Agency](https://mostlyhuman.agency)
 
 | Plugin | Description | Type |
 |---|---|---|
-| [coding-with-arktype](plugins/coding-with-arktype) | ArkType — schemas, morphs, scopes, errors, integrations | Skills + Agent |
+| [coding-with-arktype](plugins/coding-with-arktype) | ArkType — 6 skills, 3 agents, 3 commands covering schemas, morphs, scopes, errors, integrations, and migration | Skills + Agents + Commands |
 | [coding-with-liftkit](plugins/coding-with-liftkit) | LiftKit UI — golden-ratio design, materials, components, theming | Skills + Agent |
 | [coding-with-node](plugins/coding-with-node) | Node.js v24 — 19 skills, 4 agents, 4 commands covering runtime, async, streams, modules, testing, crypto, security, and more | Skills + Agents + Commands |
 | [coding-with-react](plugins/coding-with-react) | React — actions, server components, streaming SSR, compiler, patterns, testing | Skills + Agent |

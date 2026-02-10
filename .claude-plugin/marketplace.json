@@ -12,8 +12,8 @@
     {
       "name": "coding-with-arktype",
       "source": "./plugins/coding-with-arktype",
-      "description": "Claude Code skills for validating data with ArkType — schemas, morphs, scopes, errors, and integrations",
-      "version": "1.1.0",
+      "description": "Claude Code plugin for ArkType validation — 6 skills, 3 agents, 3 commands, 2 scripts, and 5 templates covering schemas, morphs, scopes, errors, integrations, and migration",
+      "version": "2.0.0",
       "author": {
         "name": "Mostly Human Agency",
         "email": "dario.farzati@gmail.com"
@@ -21,7 +21,7 @@
       "homepage": "https://mostlyhuman.agency",
       "repository": "https://github.com/mostlyhumanagency/claude-plugins",
       "license": "MIT",
-      "keywords": ["arktype", "validation", "typescript", "schemas"],
+      "keywords": ["arktype", "validation", "typescript", "schemas", "migration", "zod"],
       "category": "development",
       "strict": false
     },
