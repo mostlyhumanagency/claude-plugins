@@ -231,6 +231,38 @@
       "keywords": ["tanstack", "tanstack-query", "react-query", "react", "caching", "data-fetching", "mutations", "optimistic-updates", "suspense", "ssr"],
       "category": "development",
       "strict": false
+    },
+    {
+      "name": "coding-with-tanstack-form",
+      "source": "./plugins/coding-with-tanstack-form",
+      "description": "Claude Code plugin for TanStack Form (React) — 10 skills, 2 agents, 2 commands covering form setup, validation, composition, arrays, submission, linked fields, listeners, reactivity, SSR, and TypeScript patterns",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["tanstack", "tanstack-form", "react-form", "react", "forms", "validation", "composition", "ssr", "typescript"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "coding-with-tanstack-virtual",
+      "source": "./plugins/coding-with-tanstack-virtual",
+      "description": "Claude Code plugin for TanStack Virtual (React) — 6 skills, 2 agents, 1 command covering list virtualization, grids, tables, scroll control, infinite scroll, sticky headers, and performance patterns",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["tanstack", "tanstack-virtual", "react-virtual", "react", "virtualization", "infinite-scroll", "grids", "performance"],
+      "category": "development",
+      "strict": false
     }
   ]
 }
