@@ -151,6 +151,38 @@
       "keywords": ["google-cloud", "gcp", "oauth", "chrome"],
       "category": "productivity",
       "strict": false
+    },
+    {
+      "name": "using-google-gemini-apis",
+      "source": "./plugins/using-google-gemini-apis",
+      "description": "Claude Code plugin for Google Gemini APIs — 7 skills, 2 agents, 2 commands covering Live API streaming, Veo video generation, and Nano Banana image generation in Python and TypeScript",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["gemini", "google", "live-api", "veo", "nano-banana", "video-generation", "image-generation", "streaming"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "coding-with-astro",
+      "source": "./plugins/coding-with-astro",
+      "description": "Claude Code plugin for Astro 5/6 — 17 skills, 2 agents, 2 commands covering components, routing, content collections, SSR, actions, middleware, sessions, view transitions, framework islands, endpoints, Astro DB, and Astro 6 features",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["astro", "islands", "ssr", "content-collections", "view-transitions", "actions", "middleware", "astro-db", "cloudflare"],
+      "category": "development",
+      "strict": false
     }
   ]
 }
