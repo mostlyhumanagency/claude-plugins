@@ -1,7 +1,7 @@
 {
-  "name": "learning-skill",
-  "version": "3.0.0",
-  "description": "Research, produce, test, evaluate, and maintain Claude Code skills — 4 skills, 5 agents, 6 commands, 7 scripts, and 12 templates for the full skill lifecycle",
+  "name": "claude-skill-scholar",
+  "version": "3.1.0",
+  "description": "Research, produce, test, evaluate, and maintain Claude Code skills — 5 skills, 5 agents, 6 commands, 7 scripts, and 12 templates for the full skill lifecycle",
   "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
   "homepage": "https://mostlyhuman.agency",
   "repository": "https://github.com/mostlyhumanagency/claude-plugins",

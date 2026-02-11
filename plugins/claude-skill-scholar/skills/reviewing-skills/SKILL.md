@@ -1,7 +1,7 @@
 ---
 name: reviewing-skills
 description: >
-  This skill should be used when the user asks to "review skill quality", "check my skill",
+  Use when the user asks to "review skill quality", "check my skill",
   "is this skill good enough", "improve skill quality", "skill quality checklist", or wants
   a structured quality assessment of Claude Code skills. Triggers on requests to review, audit,
   check, grade, or validate skill quality before or after publishing.
@@ -22,7 +22,7 @@ Perform structured quality reviews of Claude Code skills by combining automated 
 - After updating a skill to verify the update did not introduce regressions
 
 Do NOT use when:
-- Creating skills from scratch — use `learning-skill` instead
+- Creating skills from scratch — use `researching-topics-into-skills` instead
 - Updating stale skills with new upstream content — use `maintaining-skills` instead
 - Packaging skills into a plugin — use `publishing-skills` instead
 
@@ -32,10 +32,10 @@ Do NOT use when:
 
 Run automated structural validation first. It catches the most common issues instantly.
 
-Execute `review-skill.sh` from `${CLAUDE_PLUGIN_ROOT}skills/learning-skill/scripts/`:
+Execute `review-skill.sh` from `${CLAUDE_PLUGIN_ROOT}skills/researching-topics-into-skills/scripts/`:
 
 ```bash
-bash "${CLAUDE_PLUGIN_ROOT}skills/learning-skill/scripts/review-skill.sh" <path-to-SKILL.md>
+bash "${CLAUDE_PLUGIN_ROOT}skills/researching-topics-into-skills/scripts/review-skill.sh" <path-to-SKILL.md>
 ```
 
 The script checks:
@@ -48,7 +48,7 @@ The script checks:
 Fix auto-fixable issues with the `--fix` flag:
 
 ```bash
-bash "${CLAUDE_PLUGIN_ROOT}skills/learning-skill/scripts/review-skill.sh" --fix <path-to-SKILL.md>
+bash "${CLAUDE_PLUGIN_ROOT}skills/researching-topics-into-skills/scripts/review-skill.sh" --fix <path-to-SKILL.md>
 ```
 
 Auto-fixable issues include trailing whitespace, missing trailing newline, and minor formatting inconsistencies. Content issues always require manual fixes.

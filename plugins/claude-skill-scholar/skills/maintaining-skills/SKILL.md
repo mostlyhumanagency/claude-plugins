@@ -1,7 +1,7 @@
 ---
 name: maintaining-skills
 description: >
-  This skill should be used when the user asks to "update a skill", "refresh skills from new docs",
+  Use when the user asks to "update a skill", "refresh skills from new docs",
   "skill is outdated", "check skill staleness", "documentation has changed", or wants to bring
   existing Claude Code skills up to date with upstream changes. Triggers on requests to update,
   refresh, maintain, or check staleness of skills after documentation or version changes.
@@ -22,7 +22,7 @@ Update existing Claude Code skills when upstream documentation changes — witho
 - Periodic maintenance check on a plugin's skill set
 
 Do NOT use when:
-- Creating a new skill from scratch — use `learning-skill` instead
+- Creating a new skill from scratch — use `researching-topics-into-skills` instead
 - Fixing structural quality issues (missing sections, bad formatting) — use `reviewing-skills` instead
 - The skill content is correct but the plugin packaging is wrong — that is a publishing concern
 
@@ -102,7 +102,7 @@ When a skill covers multiple versions of a technology:
 
 After all edits are complete:
 
-1. **Run structural validation** — Execute `review-skill.sh` from `${CLAUDE_PLUGIN_ROOT}skills/learning-skill/scripts/` to check frontmatter, word counts, and section presence
+1. **Run structural validation** — Execute `review-skill.sh` from `${CLAUDE_PLUGIN_ROOT}skills/researching-topics-into-skills/scripts/` to check frontmatter, word counts, and section presence
 2. **Check word counts** — SKILL.md should remain within 1,500-2,000 words. If updates pushed it over, extract detail into `references/`
 3. **Verify code examples** — Mentally trace or run each updated code example to confirm correctness
 4. **Update source-manifest.md** — Bump the `last-checked` date, update the `version` field, and add any new sources

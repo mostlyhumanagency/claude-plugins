@@ -1,7 +1,7 @@
 ---
-name: learning-skill
+name: researching-topics-into-skills
 description: >
-  This skill should be used when the user asks to "learn a technology", "create skills for a framework",
+  Use when the user asks to "learn a technology", "create skills for a framework",
   "study a library and build skills", "research a topic for Claude Code", or wants to turn documentation
   into structured Claude Code skills. Triggers on requests to study, learn, research, or produce skills
   for any technology, framework, library, or knowledge domain.
@@ -72,7 +72,7 @@ Use the `templates/source-discovery-prompt.md` template to dispatch a source dis
    - `examples/`: complete runnable code
    - `scripts/`: executable utilities
 3. **Validate** each produced skill with `scripts/validate-skill.sh`
-4. **Package** all skills into the plugin directory structure per plugin conventions
+4. **Ask the user** if they want to package the skills into a plugin. If yes, delegate to `publishing-skills` for plugin scaffolding (plugin.json, agents, commands, README, marketplace entry). If no, stop after delivering the validated skill files.
 
 See `references/process-guide.md` for detailed phase instructions and `references/quality-checklist.md` for the verification checklist.
 
@@ -81,7 +81,7 @@ See `references/process-guide.md` for detailed phase instructions and `reference
 - **Official docs first** — including llms.txt. Community sources supplement only.
 - **Progressive disclosure** — SKILL.md is the entrypoint. Heavy content goes to `references/`. One level deep only.
 - **One great example beats five mediocre ones** — each pattern gets one excellent, complete, runnable code example.
-- **Third-person descriptions** — "This skill should be used when the user asks to..."
+- **Third-person descriptions** — "Use when the user asks to..."
 - **Imperative writing style** — "Configure the server" not "You should configure the server"
 - **`${CLAUDE_PLUGIN_ROOT}`** for all intra-plugin path references
 

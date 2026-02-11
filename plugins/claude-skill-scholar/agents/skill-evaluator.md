@@ -66,7 +66,7 @@ claude -p "$PROMPT" --plugin-dir <plugin-root> --model haiku --print --dangerous
 Alternatively, use the script if available:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/evaluate-skill.sh <skill-dir> [options]
+bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/evaluate-skill.sh <skill-dir> [options]
 ```
 
 ### 5. Judge Results

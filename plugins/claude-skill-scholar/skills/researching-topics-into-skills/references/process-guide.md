@@ -103,7 +103,7 @@ skill-name/
 ---
 name: skill-name
 description: >
-  This skill should be used when the user asks to "do X", "configure Y",
+  Use when the user asks to "do X", "configure Y",
   or encounters [specific error messages]. Triggers on [topic area] work
   involving [keywords].
 ---
@@ -144,16 +144,16 @@ See references/detailed-guide.md for comprehensive patterns.
 After writing each skill, run the validation script:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/validate-skill.sh /path/to/skill-dir
+bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/validate-skill.sh /path/to/skill-dir
 ```
 
 This checks word count, required sections, description format, and structural rules.
 
 ---
 
-## Phase 3b: Packaging
+## Phase 3b: Packaging (Optional)
 
-After all skills are written and validated, package the plugin for distribution.
+After all skills are written and validated, **ask the user** if they want to package the skills into a plugin. If the user declines, stop here — the validated skill files are the deliverable. If the user accepts, proceed with packaging.
 
 ### Plugin Metadata
 
@@ -192,7 +192,7 @@ After packaging, validate the complete plugin:
 Run review-skill.sh on every produced skill:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/review-skill.sh <skill-dir> --plugin-dir <plugin-dir>
+bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/review-skill.sh <skill-dir> --plugin-dir <plugin-dir>
 ```
 
 Fix all errors. Warnings are acceptable but should be addressed.
@@ -202,7 +202,7 @@ Fix all errors. Warnings are acceptable but should be addressed.
 Run test-skill.sh on each skill to verify triggers activate correctly:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/test-skill.sh <skill-dir> --model haiku --budget 0.25
+bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/test-skill.sh <skill-dir> --model haiku --budget 0.25
 ```
 
 All scenarios should pass. If failures occur, improve the SKILL.md triggers and descriptions.
@@ -212,7 +212,7 @@ All scenarios should pass. If failures occur, improve the SKILL.md triggers and 
 Run evaluate-skill.sh on key skills to measure their impact:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/evaluate-skill.sh <skill-dir> --trials 3
+bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/evaluate-skill.sh <skill-dir> --trials 3
 ```
 
 Skills should score MARGINAL or better (delta > +0.3). Skills scoring NEUTRAL or NEGATIVE need content improvements.
@@ -222,7 +222,7 @@ Skills should score MARGINAL or better (delta > +0.3). Skills scoring NEUTRAL or
 Generate the plugin inventory to verify completeness:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/count-skills.sh <plugin-dir>
+bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/count-skills.sh <plugin-dir>
 ```
 
 ---

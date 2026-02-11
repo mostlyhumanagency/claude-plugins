@@ -1,7 +1,7 @@
 ---
 name: publishing-skills
 description: >
-  This skill should be used when the user asks to "package skills into a plugin", "create plugin.json",
+  Use when the user asks to "package skills into a plugin", "create plugin.json",
   "publish a plugin", "generate README for plugin", "plugin directory structure", or wants to assemble
   a set of skills into a complete, distributable Claude Code plugin. Triggers on requests to package,
   publish, bundle, or structure a plugin for distribution.
@@ -22,7 +22,7 @@ Package a set of validated skills into a complete, distributable Claude Code plu
 - User needs to bump a version and update marketplace metadata
 
 Do NOT use when:
-- Writing individual skill content — use `learning-skill` instead
+- Writing individual skill content — use `researching-topics-into-skills` instead
 - Fixing quality issues in skill content — use `reviewing-skills` instead
 - Updating skill content for upstream doc changes — use `maintaining-skills` instead
 
@@ -77,7 +77,7 @@ plugin-name/
 
 Create a router skill when the plugin contains 4 or more subskills. The router is a lightweight SKILL.md (under 200 words) that lists all subskills with their trigger phrases so the agent can route to the correct skill.
 
-Use the router template at `${CLAUDE_PLUGIN_ROOT}skills/learning-skill/templates/router-template.md` as a starting point.
+Use the router template at `${CLAUDE_PLUGIN_ROOT}skills/researching-topics-into-skills/templates/router-template.md` as a starting point.
 
 Router skill rules:
 - Name it after the plugin topic (e.g., `svelte-skills` for a Svelte plugin)
@@ -94,7 +94,7 @@ Create agents for complex multi-step workflows that benefit from dedicated tool 
 - **Reviewer agent** — Uses Read, Grep, Bash to validate skill quality
 - **Tester agent** — Uses Bash, Read to run test scenarios
 
-Agent files live in `agents/` and follow the agent template at `${CLAUDE_PLUGIN_ROOT}skills/learning-skill/templates/agent-template.md`.
+Agent files live in `agents/` and follow the agent template at `${CLAUDE_PLUGIN_ROOT}skills/researching-topics-into-skills/templates/agent-template.md`.
 
 When defining agents:
 - Select the minimum set of tools needed for the task
@@ -106,7 +106,7 @@ When defining agents:
 
 Create commands as user-facing entry points. Commands are invoked with `/<command-name>` and typically delegate to agents or orchestrate multi-step workflows.
 
-Command files live in `commands/` and follow the command template at `${CLAUDE_PLUGIN_ROOT}skills/learning-skill/templates/command-template.md`.
+Command files live in `commands/` and follow the command template at `${CLAUDE_PLUGIN_ROOT}skills/researching-topics-into-skills/templates/command-template.md`.
 
 Command design rules:
 - One command per distinct user action (learn, review, test, publish)
@@ -147,7 +147,7 @@ Keep the marketplace entry synchronized with `plugin.json` on every version bump
 Use `${CLAUDE_PLUGIN_ROOT}` for all paths that reference files within the plugin. This variable resolves to the plugin's root directory at runtime and ensures the plugin works regardless of where it is installed.
 
 Examples:
-- `${CLAUDE_PLUGIN_ROOT}skills/learning-skill/scripts/validate-skill.sh`
+- `${CLAUDE_PLUGIN_ROOT}skills/researching-topics-into-skills/scripts/validate-skill.sh`
 - `${CLAUDE_PLUGIN_ROOT}templates/source-manifest.md`
 
 Never hardcode absolute paths like `/Users/name/plugins/my-plugin/`. Never use relative paths like `../templates/`.

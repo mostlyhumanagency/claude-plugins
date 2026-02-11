@@ -24,7 +24,7 @@ Task tool (general-purpose):
 
     YAML frontmatter:
     - name: [skill-name] (lowercase, hyphens only, max 64 chars)
-    - description: "This skill should be used when the user asks to..." — third person, specific trigger phrases
+    - description: "Use when the user asks to..." — third person, specific trigger phrases
 
     Body structure:
     1. ## Overview — Core concept in 1-2 sentences
@@ -66,11 +66,11 @@ Task tool (general-purpose):
     ### Plugin Completeness (when writing the final skill in a set)
 
     After writing all individual skills, also produce:
-    - Router skill (if 4+ subskills) — use ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/templates/router-template.md
-    - At least one agent definition — use ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/templates/agent-template.md
-    - At least one command — use ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/templates/command-template.md
-    - plugin.json — use ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/templates/plugin-json-template.json
-    - README.md — generate with ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/generate-readme.sh
+    - Router skill (if 4+ subskills) — use ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/templates/router-template.md
+    - At least one agent definition — use ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/templates/agent-template.md
+    - At least one command — use ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/templates/command-template.md
+    - plugin.json — use ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/templates/plugin-json-template.json
+    - README.md — generate with ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/generate-readme.sh
 
     ## Output
 
@@ -82,5 +82,5 @@ Task tool (general-purpose):
     After writing, report:
     - Files created with word counts
     - SKILL.md body word count (must be 1,500-2,000)
-    - Description field (verify it starts with "This skill should be used when")
+    - Description field (verify it starts with "Use when")
 ```

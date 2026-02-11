@@ -81,7 +81,7 @@ After user approval:
 Run the review script on the updated skill:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/review-skill.sh <skill-dir> --plugin-dir <plugin-dir>
+bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/review-skill.sh <skill-dir> --plugin-dir <plugin-dir>
 ```
 
 ### 8. Update Source Manifest

@@ -1,12 +1,13 @@
-# learning-skill
+# claude-skill-scholar
 
-Research, produce, test, evaluate, and maintain Claude Code skills — 4 skills, 5 agents, 6 commands, 7 scripts, and 12 templates for the full skill lifecycle.
+Research, produce, test, evaluate, and maintain Claude Code skills — 5 skills, 5 agents, 6 commands, 7 scripts, and 12 templates for the full skill lifecycle.
 
 ## Skills
 
 | Skill | Description |
 |---|---|
-| `learning-skill` | Core workflow — research a technology, decompose into skill units, produce plugin-ready skills |
+| `skill-scholar-router` | Router skill — routes to the correct subskill based on the user's intent |
+| `researching-topics-into-skills` | Core workflow — research a technology, decompose into skill units, produce plugin-ready skills |
 | `maintaining-skills` | Update existing skills when upstream documentation changes — staleness detection, surgical updates |
 | `publishing-skills` | Package skills into complete plugins — plugin.json, README, agents, commands, marketplace entry |
 | `reviewing-skills` | Structured quality review — structural validation, content analysis, weighted grading rubric |
@@ -64,5 +65,5 @@ Research, produce, test, evaluate, and maintain Claude Code skills — 4 skills,
 ## Installation
 
 ```sh
-claude plugin add mostlyhumanagency/claude-plugins --path plugins/learning-skill
+claude plugin add mostlyhumanagency/claude-plugins --path plugins/claude-skill-scholar
 ```

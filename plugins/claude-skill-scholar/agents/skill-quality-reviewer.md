@@ -34,7 +34,7 @@ You are a skill quality reviewer. Your job is to perform deep, structured qualit
 Run the automated review script:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/review-skill.sh <skill-dir> --plugin-dir <plugin-dir>
+bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/review-skill.sh <skill-dir> --plugin-dir <plugin-dir>
 ```
 
 ### Phase B: Deep Content Evaluation
@@ -52,7 +52,7 @@ Grade: **A** (all examples correct and runnable) to **F** (most examples broken 
 
 #### 2. Trigger Description Quality (20%)
 
-- Does the trigger start with "This skill should be used when..."?
+- Does the trigger start with "Use when..."?
 - Are there specific quoted trigger phrases?
 - Does it mention error messages or symptoms that would lead a developer here?
 - Is it specific enough for a router to distinguish from sibling skills?

@@ -25,6 +25,6 @@ Refresh the skill at **$ARGUMENTS** from its original documentation sources.
 6. Apply targeted, surgical updates to SKILL.md and reference files — do not rewrite entire files, only update the sections that changed
 7. Re-run the review script to validate the updated skill:
    ```
-   bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/review-skill.sh "$ARGUMENTS"
+   bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/review-skill.sh "$ARGUMENTS"
    ```
 8. Report all changes made with a summary of what was updated and why

@@ -14,12 +14,12 @@ Test the skill at **$ARGUMENTS** by running generated scenarios through Claude C
 2. Verify that `SKILL.md` exists in the resolved directory; abort with a clear error if missing
 3. Run structural validation first:
    ```
-   bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/validate-skill.sh "$ARGUMENTS"
+   bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/validate-skill.sh "$ARGUMENTS"
    ```
    If validation fails, report errors and stop before running tests.
 4. Run the test script:
    ```
-   bash ${CLAUDE_PLUGIN_ROOT}/skills/learning-skill/scripts/test-skill.sh "$ARGUMENTS" --model haiku --verbose --budget 0.25
+   bash ${CLAUDE_PLUGIN_ROOT}/skills/researching-topics-into-skills/scripts/test-skill.sh "$ARGUMENTS" --model haiku --verbose --budget 0.25
    ```
 5. Parse the test output and present a formatted report with each scenario showing PASS/FAIL and pattern match percentage
 6. If any scenarios fail, analyze SKILL.md and suggest specific improvements:

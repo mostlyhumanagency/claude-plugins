@@ -9,7 +9,7 @@ context: fork
 
 Research **$ARGUMENTS** and produce a set of structured Claude Code skills.
 
-Follow the `learning-skill` skill workflow:
+Follow the `researching-topics-into-skills` skill workflow:
 1. Clarify scope with the user
 2. Discover official and community sources
 3. Build a topic map and decompose into skill units
