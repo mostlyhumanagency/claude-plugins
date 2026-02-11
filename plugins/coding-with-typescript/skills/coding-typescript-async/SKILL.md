@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-async
-description: Use when dealing with async/await, Promises, concurrency, retries, timeouts, cancellation, or async iterators in TypeScript — or when you see TS2801 (this expression is not callable on Promise), TS1378 (top-level await requires module), or floating promise warnings.
+description: Use when writing async functions, awaiting promises, handling concurrent operations, adding retries or timeouts, cancelling async work, streaming with async iterators, or fixing "floating promise" warnings in TypeScript. Also use when refactoring callback-based code to async/await, implementing error handling for async operations, or when you see TS2801 (not callable on Promise), TS1378 (top-level await requires module), TS2345 (Promise vs value mismatch), or TS18046 (unknown caught error).
 ---
 
 # Coding TypeScript Async

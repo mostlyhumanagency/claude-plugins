@@ -1,6 +1,6 @@
 ---
 name: using-node-cli
-description: Use when working with the Node.js v24 CLI — running scripts, REPL usage, stdin/stdout handling, env file loading, watch mode, exit codes — or when you see ERR_INVALID_ARG_VALUE, unexpected exit code behavior, or stdin/stdout piping issues.
+description: Use when running Node.js scripts from the command line, building CLI tools, reading stdin or writing stdout, loading .env files, using watch mode for development, configuring Node flags, or debugging exit code issues — covers node CLI options, REPL, --watch, --env-file, --inspect, input/output piping, and shebang scripts. Triggers on ERR_INVALID_ARG_VALUE, unexpected exit codes, stdin/stdout piping issues.
 ---
 
 # Using Node CLI

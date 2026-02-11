@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-monorepo
-description: "This skill should be used when the user asks about 'TypeScript monorepo', 'project references', 'composite builds', or monorepo TypeScript setup and it is unclear which specific monorepo tool applies. Routes to the most specific monorepo skill."
+description: "Use when setting up a TypeScript monorepo, configuring project references, sharing types across packages, fixing cross-package import issues, or choosing a monorepo tool (pnpm workspaces, Turborepo, Nx). Routes to the specific monorepo skill based on the tooling."
 ---
 
 # Coding TypeScript Monorepo (Router)

@@ -1,6 +1,6 @@
 ---
 name: using-react-error-boundaries
-description: Use when implementing error boundaries, error recovery, react-error-boundary library, fallback UI, retry patterns, or composing error handling with Suspense
+description: Use when handling errors gracefully in React apps, showing fallback UI when something crashes, adding retry or recovery buttons, preventing the whole page from breaking when one component fails, catching errors from data loading, isolating third-party widgets, or layering error handling at different levels. Covers class-based boundaries, react-error-boundary library, useErrorBoundary hook, and ErrorBoundary + Suspense composition.
 ---
 
 # Using React Error Boundaries

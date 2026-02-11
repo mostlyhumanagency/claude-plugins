@@ -1,6 +1,6 @@
 ---
 name: using-webassembly-in-node
-description: Use when running or embedding WebAssembly in Node.js — loading .wasm files, validating exports, JS↔WASM memory and data exchange — or when you see CompileError, LinkError, RuntimeError from WebAssembly, or memory access issues.
+description: Use when loading and running WebAssembly modules in Node.js, calling Rust/C/C++ compiled code from JavaScript, exchanging data between JS and WASM, or optimizing performance-critical code paths with WASM — covers WebAssembly.compile, instantiate, Memory, Table, and JS/WASM data marshalling. Triggers on CompileError, LinkError, RuntimeError from WebAssembly, memory access issues.
 ---
 
 # Using WebAssembly In Node

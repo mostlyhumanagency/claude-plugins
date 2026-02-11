@@ -5,7 +5,7 @@
     "email": "dario.farzati@gmail.com"
   },
   "metadata": {
-    "description": "Claude Code skills for TypeScript, React, Node.js, ArkType, LiftKit, Gmail, Google Cloud, and more",
+    "description": "Claude Code skills for TypeScript, React, Node.js, Anthropic API, Anthropic TypeScript SDK, ArkType, LiftKit, Gmail, Google Cloud, and more",
     "version": "1.0.0"
   },
   "plugins": [
@@ -261,6 +261,38 @@
       "repository": "https://github.com/mostlyhumanagency/claude-plugins",
       "license": "MIT",
       "keywords": ["tanstack", "tanstack-virtual", "react-virtual", "react", "virtualization", "infinite-scroll", "grids", "performance"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "using-anthropic-api",
+      "source": "./plugins/using-anthropic-api",
+      "description": "Claude Code plugin for the Anthropic API — 13 skills, 2 agents, 2 commands covering messages, context management, prompt caching, thinking/effort, streaming, citations, media/files, structured outputs, tool use, built-in tools, server tools/MCP, agent skills, and Bedrock",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["anthropic", "claude-api", "messages", "tool-use", "streaming", "prompt-caching", "extended-thinking", "citations", "structured-outputs", "mcp", "bedrock", "agent-skills", "vision", "pdf"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "coding-with-anthropic-sdk-typescript",
+      "source": "./plugins/coding-with-anthropic-sdk-typescript",
+      "description": "Claude Code plugin for the Anthropic TypeScript SDK (@anthropic-ai/sdk) — 8 skills, 2 agents, 2 commands covering client setup, messages, streaming, tool use, error handling, batches, beta APIs, and advanced patterns",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["anthropic", "typescript-sdk", "claude-sdk", "messages", "streaming", "tool-use", "zod", "batches", "bedrock", "vertex-ai", "files-api", "error-handling"],
       "category": "development",
       "strict": false
     }

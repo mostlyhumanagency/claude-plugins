@@ -1,6 +1,6 @@
 ---
 name: installing-liftkit
-description: This skill should be used when the user asks to "install LiftKit", "set up LiftKit", "npx liftkit init", "add LiftKit components", "npm run add", or sees errors like "Cannot find module '@/lib/css/index.css'" or "components.json not found"
+description: "Use when installing LiftKit, setting up a new project with LiftKit, running npx liftkit init, adding components with npm run add, or fixing setup errors like 'Cannot find module @/lib/css/index.css' or 'components.json not found'."
 ---
 
 # Installing LiftKit

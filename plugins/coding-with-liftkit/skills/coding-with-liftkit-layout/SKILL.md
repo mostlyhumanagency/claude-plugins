@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-layout
-description: This skill should be used when the user asks to "build a page layout", "use Section", "use Container", "use Grid", "use Row", "use Column", "responsive layout", or troubleshoots page structure issues with LiftKit
+description: "Use when building page layouts, creating responsive grids, structuring content with Section/Container/Grid/Row/Column, or troubleshooting page structure in LiftKit. Also use for responsive breakpoints, column sizing, or layout alignment issues."
 ---
 
 # LiftKit Layout

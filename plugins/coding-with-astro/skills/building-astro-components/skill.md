@@ -1,6 +1,6 @@
 ---
 name: building-astro-components
-description: Use when creating or modifying Astro components — frontmatter scripts, template expressions, props with TypeScript interfaces, slots, named slots, fallback content, fragments, class:list binding, define:vars, CSS scoping, or server:defer islands.
+description: "Use when creating .astro components, passing props between components, using slots for content injection, adding frontmatter logic, or deferring components with server:defer. Use for tasks like 'create a card component', 'pass data to a layout', 'add a named slot', or 'use define:vars for CSS variables'. Also covers Astro.props, template expressions, class:list, set:html, component composition, and conditional rendering patterns."
 ---
 
 # Building Astro Components

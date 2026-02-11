@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-core
-description: Use when writing or reviewing general TypeScript code, fixing type errors, enforcing type safety and immutability — or when you see TS2322 (not assignable), TS2540 (readonly), TS7006 (implicit any), TS18048 (possibly undefined), or general TypeScript compiler errors.
+description: Use when writing general TypeScript code, fixing type errors, making code more type-safe, enforcing immutability, structuring modules, choosing between types and interfaces, or handling general compiler errors. Also use for adding type annotations, removing implicit any, fixing null/undefined issues, using Result types for error handling, or when you see TS2322 (not assignable), TS2540 (readonly), TS7006 (implicit any), TS18048 (possibly undefined), or other common TypeScript compiler errors not specific to generics, async, or narrowing.
 ---
 
 # Coding TypeScript Core

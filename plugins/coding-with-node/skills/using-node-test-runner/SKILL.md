@@ -1,6 +1,6 @@
 ---
 name: using-node-test-runner
-description: Use when writing tests with Node's built-in test runner in v24 — node:test, test filtering/sharding, reporters, coverage, mocking — or when you see ERR_TEST_FAILURE, test discovery issues, or coverage configuration problems.
+description: Use when writing unit or integration tests in Node.js without external frameworks, setting up test suites with describe/it, mocking dependencies, measuring code coverage, filtering or sharding tests for CI, or configuring test reporters — covers node:test, assert, mock, test planning, snapshots, and built-in coverage. Triggers on ERR_TEST_FAILURE, test discovery issues, coverage configuration problems.
 ---
 
 # Using Node Test Runner

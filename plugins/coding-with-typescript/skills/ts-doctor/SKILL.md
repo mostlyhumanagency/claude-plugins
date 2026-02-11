@@ -1,6 +1,6 @@
 ---
 name: ts-doctor
-description: "This skill should be used when the user asks to 'review tsconfig', 'audit TypeScript config', 'fix tsconfig', or has confusing behavior caused by TypeScript misconfiguration. Applies when compiler behavior is surprising, module resolution is wrong, or the user wants tsconfig best-practice validation."
+description: "Use when reviewing or auditing tsconfig.json, diagnosing confusing TypeScript compiler behavior, fixing misconfigured tsconfig options, validating tsconfig against framework best practices (Next.js, Vite, Angular, Node.js), debugging unexpected module resolution, or when the user asks to review, audit, or fix their TypeScript configuration."
 ---
 
 # TypeScript Configuration Doctor

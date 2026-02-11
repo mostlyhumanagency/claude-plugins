@@ -1,6 +1,6 @@
 ---
 name: using-astro-view-transitions
-description: Use when adding page transitions in Astro — ClientRouter component, transition:name for element matching, transition:animate with fade/slide/none, transition:persist for state preservation, lifecycle events (astro:before-preparation through astro:page-load), navigate() for programmatic routing, fallback behavior, or custom animations.
+description: "Use when adding smooth page transitions, persisting UI state across navigation, or building SPA-like experiences in Astro. Use for tasks like 'add page transitions', 'persist a sidebar across navigation', 'animate between pages', 'use programmatic navigation', or 'keep component state during route changes'. Covers ClientRouter, transition:name/animate/persist directives, lifecycle events, navigate() for programmatic routing, custom animations, and fallback behavior for older browsers."
 ---
 
 # Astro View Transitions

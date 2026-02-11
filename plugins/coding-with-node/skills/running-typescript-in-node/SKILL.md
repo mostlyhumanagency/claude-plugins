@@ -1,6 +1,6 @@
 ---
 name: running-typescript-in-node
-description: Use when running TypeScript files directly in Node.js v24 with --experimental-strip-types, configuring tsconfig.json for Node, or troubleshooting .ts/.mts/.cts file execution — including errors like ERR_UNKNOWN_FILE_EXTENSION or unsupported syntax from enums/namespaces.
+description: Use when running .ts files directly in Node.js without a build step, prototyping TypeScript scripts, configuring tsconfig.json for Node.js, or fixing TypeScript execution errors — covers --experimental-strip-types, .ts/.mts/.cts file handling, type stripping limitations (no enums/namespaces), and tsconfig moduleResolution settings. Triggers on ERR_UNKNOWN_FILE_EXTENSION, unsupported TypeScript syntax errors.
 ---
 
 # Running TypeScript in Node

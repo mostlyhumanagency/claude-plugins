@@ -1,6 +1,6 @@
 ---
 name: testing-react
-description: Use when testing React components with Vitest and React Testing Library
+description: Use when writing tests for React components, setting up test infrastructure, testing user interactions like clicks and form submissions, verifying async behavior and data fetching, asserting on rendered output, querying elements by role or label, or debugging failing component tests. Covers Vitest, React Testing Library, userEvent, and jsdom setup.
 ---
 
 # Testing React Components

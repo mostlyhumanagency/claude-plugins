@@ -1,6 +1,6 @@
 ---
 name: using-astro-actions
-description: Use when defining or calling Astro Actions — defineAction in src/actions/index.ts, Zod input validation, calling actions from client with astro:actions, form actions with method POST, ActionError for error handling, isInputError for field validation, Astro.getActionResult, Astro.callAction, or organizing actions in nested objects.
+description: "Use when handling form submissions, calling server functions from the client, or building interactive features with type-safe backend functions. Use for tasks like 'handle a form submission', 'call a server function from the browser', 'add form validation', or 'create a like button with server logic'. Covers defineAction, Zod input validation, calling actions from client-side JS or HTML forms, ActionError and isInputError error handling, Astro.getActionResult for progressive enhancement, and organizing actions in nested objects."
 ---
 
 # Astro Actions

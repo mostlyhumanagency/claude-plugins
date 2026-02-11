@@ -1,6 +1,6 @@
 ---
 name: diagnosing-node
-description: Use when diagnosing Node.js v24 runtime issues — slow endpoints, CPU spikes, memory growth/leaks, crashes, capturing diagnostic reports, heap snapshots, CPU profiles — or when you see ERR_INSPECTOR_NOT_AVAILABLE, OOM crashes, or need post-mortem debugging.
+description: Use when a Node.js app is slow, crashing, or using too much memory — profiling CPU hotspots, finding memory leaks, capturing heap snapshots, generating diagnostic reports, debugging production issues, or analyzing why requests are hanging — covers --inspect, Chrome DevTools, CPU profiles, heap snapshots, diagnostic reports, and performance hooks. Triggers on ERR_INSPECTOR_NOT_AVAILABLE, OOM crashes, event loop lag.
 ---
 
 # Diagnosing Node

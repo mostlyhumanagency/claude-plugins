@@ -1,6 +1,6 @@
 ---
 name: using-react-ssr-streaming
-description: Use when implementing React server-side rendering with streaming, Suspense, or partial pre-rendering
+description: Use when server-rendering a React app, sending HTML progressively to the browser, improving time-to-first-byte for slow data sources, hydrating server-rendered markup on the client, generating static HTML at build time, or implementing partial pre-rendering for hybrid static/dynamic pages. Covers renderToPipeableStream, renderToReadableStream, prerender, hydrateRoot, and Suspense-based streaming.
 ---
 
 # React SSR Streaming

@@ -1,6 +1,6 @@
 ---
 name: coding-arktype
-description: Use when a user wants an overview of ArkType skills or when unsure which ArkType subskill applies. Routes to the most specific ArkType skill.
+description: "Use when validating data, defining schemas, parsing inputs, or enforcing types at runtime with ArkType — covers type definitions, morphs/transforms, scopes, error handling, and integration with tRPC, Drizzle, React Hook Form. Routes to the specific subskill."
 ---
 
 # Using ArkType

@@ -1,6 +1,6 @@
 ---
 name: coding-arktype-integrations
-description: Use when integrating ArkType with tRPC, Drizzle, React Hook Form, Hono, oRPC, or when using Standard Schema, match API, JSON Schema export, declare API, or ArkEnv.
+description: "Use when connecting ArkType to other libraries — validating tRPC inputs, generating Drizzle columns, binding React Hook Form, using Hono or oRPC validators, converting to JSON Schema, pattern matching with match API, declaring external types, or reading env vars with ArkEnv. Also use for Standard Schema compatibility."
 ---
 
 # Using ArkType Integrations

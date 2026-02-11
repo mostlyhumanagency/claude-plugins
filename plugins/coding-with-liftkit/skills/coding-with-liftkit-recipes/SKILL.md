@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-recipes
-description: This skill should be used when the user asks to "build a landing page", "create a dashboard", "auth page layout", "settings page", "hero section", "card grid", "sidebar layout", or needs complete UI patterns and recipes using LiftKit components
+description: "Use when building a complete page or UI pattern with LiftKit — landing pages, dashboards, auth pages, settings screens, hero sections, card grids, sidebar layouts, or any full-page recipe that combines multiple LiftKit components together."
 ---
 
 # LiftKit UI Recipes

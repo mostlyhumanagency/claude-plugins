@@ -1,6 +1,6 @@
 ---
 name: styling-astro-components
-description: Use when styling Astro components — scoped styles, global styles with is:global, class:list binding, define:vars for CSS variables, Tailwind CSS 4 integration, Sass/SCSS/Less preprocessors, PostCSS, CSS modules in framework components, external stylesheets, or cascading order.
+description: "Use when adding CSS to Astro components, setting up Tailwind CSS, using Sass/SCSS, or applying scoped and global styles. Use for tasks like 'add styles to a component', 'set up Tailwind in Astro', 'use SCSS in Astro', 'pass CSS variables from frontmatter', or 'fix styles not applying'. Also covers is:global directive, class:list utility, define:vars, PostCSS configuration, CSS modules in framework components, importing external stylesheets, and debugging style scoping conflicts."
 ---
 
 # Styling Astro Components

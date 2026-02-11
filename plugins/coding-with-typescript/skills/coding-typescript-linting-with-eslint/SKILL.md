@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-linting-with-eslint
-description: "Use when setting up or configuring ESLint with typescript-eslint for TypeScript projects — flat config (eslint.config.mjs), shared configs (recommended, strict, type-checked), key rules, framework integration, or migrating from legacy .eslintrc."
+description: "Use when setting up ESLint for a TypeScript project, writing eslint.config.mjs flat config, configuring typescript-eslint rules (recommended, strict, type-checked), integrating ESLint with frameworks (React, Next.js, Vue), migrating from legacy .eslintrc to flat config, fixing ESLint errors, disabling or customizing specific lint rules, or upgrading to ESLint v10."
 ---
 
 # Coding TypeScript Linting with ESLint

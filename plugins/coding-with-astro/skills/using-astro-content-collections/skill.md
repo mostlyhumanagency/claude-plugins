@@ -1,6 +1,6 @@
 ---
 name: using-astro-content-collections
-description: Use when working with Astro content collections — defining collections in content.config.ts, Zod schemas for validation, glob and file loaders, custom loaders for remote data, querying with getCollection and getEntry, rendering with render(), filtering, sorting, collection references, or generating static routes from collections.
+description: "Use when managing blog posts, documentation, or structured content in Astro with content collections. Use for tasks like 'add a blog', 'set up content collections', 'define a Zod schema for posts', 'load markdown files into a collection', 'build a custom loader for a CMS', or 'generate pages from collection data'. Covers content.config.ts setup, glob and file loaders, custom remote loaders, getCollection/getEntry queries, rendering entries to HTML, and collection type errors."
 ---
 
 # Astro Content Collections

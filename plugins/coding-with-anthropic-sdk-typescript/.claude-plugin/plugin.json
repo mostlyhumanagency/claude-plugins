@@ -1,0 +1,26 @@
+{
+  "name": "coding-with-anthropic-sdk-typescript",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for the Anthropic TypeScript SDK (@anthropic-ai/sdk) — 8 skills, 2 agents, 2 commands covering client setup, messages, streaming, tool use, error handling, batches, beta APIs, and advanced patterns",
+  "author": {
+    "name": "Mostly Human Agency",
+    "email": "dario.farzati@gmail.com"
+  },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "anthropic",
+    "typescript-sdk",
+    "claude-sdk",
+    "messages",
+    "streaming",
+    "tool-use",
+    "zod",
+    "batches",
+    "bedrock",
+    "vertex-ai",
+    "files-api",
+    "error-handling"
+  ]
+}

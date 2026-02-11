@@ -1,6 +1,6 @@
 ---
 name: using-node-web-apis
-description: Use when using Node v24 web APIs — fetch, URL/URLPattern, WebSocket client, AbortController, Headers, FormData — for outbound HTTP requests, URL parsing, or WebSocket connections — or when you see UND_ERR_CONNECT_TIMEOUT, AbortError, or fetch status handling issues.
+description: Use when making HTTP requests with fetch in Node.js, parsing or constructing URLs, connecting to WebSocket servers, cancelling operations with AbortController, sending form data, or handling request timeouts — covers fetch, URL, URLPattern, WebSocket, AbortController, Headers, FormData, and Response handling. Triggers on UND_ERR_CONNECT_TIMEOUT, AbortError, fetch status handling issues.
 ---
 
 # Using Node Web APIs

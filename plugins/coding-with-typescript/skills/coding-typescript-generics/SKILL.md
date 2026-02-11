@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-generics
-description: Use when designing, reviewing, or refactoring TypeScript generics — type parameters, constraints, defaults, inference, branded types — or when you see TS2344 (does not satisfy constraint), TS2322 (not assignable to type parameter), or TS2589 (excessively deep type instantiation).
+description: Use when designing reusable functions, creating type-safe containers, building generic APIs, adding type parameters to functions or classes, fixing generic type errors, or working with branded types in TypeScript. Also use when adding constraints or defaults to generics, improving type inference, or when you see TS2344 (does not satisfy constraint), TS2322 (not assignable to type parameter), TS2589 (excessively deep type instantiation), TS2314 (requires N type arguments), or TS2558 (wrong number of type arguments).
 ---
 
 # Coding TypeScript Generics

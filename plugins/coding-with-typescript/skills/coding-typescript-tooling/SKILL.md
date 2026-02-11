@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-tooling
-description: Use when configuring TypeScript tooling — tsconfig options, strict mode, module resolution, TS version features, compiler errors — or when you see TS5110 (module format), TS1286 (ESM syntax in CJS), TS6133 (declared but never used), or tsconfig-related errors.
+description: Use when configuring tsconfig.json, choosing compiler options, setting up module resolution (node, bundler, nodenext), enabling strict mode flags, fixing tsconfig errors, upgrading TypeScript versions, understanding new TS features, or resolving ESM vs CJS module issues. Also use when you see TS5110 (module format mismatch), TS1286 (ESM syntax in CJS), TS6133 (declared but never used), TS1371 (import never used as value), or TS5023 (unknown compiler option).
 ---
 
 # Coding TypeScript Tooling

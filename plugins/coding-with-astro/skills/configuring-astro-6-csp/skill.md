@@ -1,6 +1,6 @@
 ---
 name: configuring-astro-6-csp
-description: Use when configuring Content Security Policy in Astro 6 — enabling CSP headers, automatic script and style hash generation, customizing CSP directives, or protecting against XSS and code injection attacks.
+description: "Use when adding Content Security Policy headers to an Astro 6 site, fixing CSP violations, enabling automatic script and style hash generation, customizing CSP directives, or hardening an Astro app against XSS and code injection. Use for tasks like 'add CSP to my Astro site', 'fix inline script blocked by CSP', or 'configure security headers'. Also covers report-only mode, nonce-based policies, and Astro 6 built-in CSP configuration."
 ---
 
 # Configuring Content Security Policy in Astro 6

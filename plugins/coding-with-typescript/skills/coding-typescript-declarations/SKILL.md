@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-declarations
-description: Use when writing or reviewing TypeScript declaration files (.d.ts), ambient modules, global declarations, module augmentation, or when you see TS7016 (could not find declaration file), TS2305 (module has no exported member), or TS2669 (augmentations for global scope).
+description: Use when creating or editing .d.ts declaration files, typing untyped packages, adding ambient module declarations, augmenting existing modules (e.g. extending Express Request or Window), declaring global variables, or fixing missing type definitions. Also use when you see TS7016 (could not find declaration file), TS2305 (module has no exported member), TS2669 (augmentations for global scope), or TS2717 (subsequent property declarations must have same type).
 ---
 
 # Coding TypeScript Declarations

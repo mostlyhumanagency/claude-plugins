@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-classes
-description: Use when designing or reviewing TypeScript classes, inheritance, access modifiers, abstract classes, mixins, class-based APIs, or when you see TS2415 (class incorrectly implements interface), TS4114 (override modifier missing), or TS2341 (property is private).
+description: Use when creating TypeScript classes, adding inheritance or abstract base classes, using access modifiers (public/private/protected), implementing interfaces with classes, building class-based APIs, writing mixins, refactoring classes, or fixing class-related type errors. Also use when you see TS2415 (class incorrectly implements interface), TS4114 (override modifier missing), TS2341 (property is private), TS2515 (non-abstract class missing abstract member), or TS2564 (property not initialized).
 ---
 
 # Coding TypeScript Classes

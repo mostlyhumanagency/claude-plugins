@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-narrowing
-description: Use when TypeScript needs control-flow narrowing, type guards, type predicates, exhaustiveness checks, discriminated unions, or when you see TS2352 (type assertion), TS2339 (property does not exist on narrowed type), or TS2345 (argument type mismatch after narrowing).
+description: Use when handling union types, writing type guards or type predicates, adding exhaustiveness checks to switch statements, using discriminated unions, removing unsafe type assertions, or fixing "property does not exist" errors on union types in TypeScript. Also use when narrowing unknown values, checking for null/undefined safely, or when you see TS2352 (unsafe type assertion), TS2339 (property does not exist on narrowed type), TS2345 (argument type mismatch after narrowing), TS18046 (value is of type unknown), or TS2322 (not assignable to type never in exhaustiveness check).
 ---
 
 # Coding TypeScript Narrowing

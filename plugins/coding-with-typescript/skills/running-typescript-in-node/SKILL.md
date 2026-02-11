@@ -1,6 +1,6 @@
 ---
 name: running-typescript-in-node
-description: Use when running or publishing TypeScript in Node.js — type stripping, ts runners (tsx), .mts/.cts module rules, runtime import issues — or when you see ERR_MODULE_NOT_FOUND, TS2307 (cannot find module), or TS1286 (ESM syntax in CJS).
+description: Use when running TypeScript files directly with Node.js, choosing between Node type stripping and tsx runner, configuring .mts/.cts module extensions, publishing TypeScript packages to npm, setting up package.json exports with types, or fixing runtime import errors. Also use when you see ERR_MODULE_NOT_FOUND, TS2307 (cannot find module), TS1286 (ESM syntax in CJS), or issues with ESM/CJS interop in Node.
 ---
 
 # Running TypeScript In Node

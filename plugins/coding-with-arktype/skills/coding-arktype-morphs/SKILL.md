@@ -1,6 +1,6 @@
 ---
 name: coding-arktype-morphs
-description: Use when transforming data with ArkType pipes, morphs, .to(), .narrow(), .filter(), parse keywords like string.json.parse or string.numeric.parse, or the |> operator.
+description: "Use when transforming or converting data during validation, piping one type into another, parsing strings to numbers or JSON, coercing input shapes, or using .to(), .narrow(), .filter(), .pipe(), morphs, or the |> operator in ArkType. Also use for 'string.json.parse', 'string.numeric.parse', or input/output type mismatches."
 ---
 
 # Using ArkType Morphs

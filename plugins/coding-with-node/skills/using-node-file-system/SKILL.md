@@ -1,6 +1,6 @@
 ---
 name: using-node-file-system
-description: Use when working with Node.js file system operations — reading, writing, watching, globbing, streaming files — or when you see ENOENT, EACCES, EPERM, EISDIR, EMFILE, or ENOSPC errors.
+description: Use when reading or writing files in Node.js, creating directories, watching for file changes, listing directory contents, copying or moving files, or globbing file paths — covers fs/promises, readFile, writeFile, mkdir, readdir, watch, glob, stat, rename, and temp file patterns. Triggers on ENOENT, EACCES, EPERM, EISDIR, EMFILE, ENOSPC errors.
 ---
 
 # Using Node File System

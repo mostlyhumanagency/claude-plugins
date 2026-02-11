@@ -1,6 +1,6 @@
 ---
 name: using-react-compiler
-description: Use when optimizing React apps with automatic memoization at build time via React Compiler
+description: Use when optimizing React app performance, removing manual useMemo/useCallback/memo calls, setting up automatic memoization, fixing unnecessary re-renders at build time, or adopting React Compiler incrementally. Also use when seeing "use memo" or "use no memo" directives, or configuring babel-plugin-react-compiler in Vite or Next.js.
 ---
 
 ## Overview

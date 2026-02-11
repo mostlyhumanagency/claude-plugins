@@ -1,6 +1,6 @@
 ---
 name: coding-node
-description: Use only when a user wants an overview of available Node.js skills or when unsure which Node.js subskill applies. This skill routes to the most specific Node.js skill.
+description: Use when writing, reviewing, debugging, or architecting any Node.js application code — building APIs, creating servers, reading files, running shell commands, writing tests, handling async logic, processing data, managing dependencies, or deploying packages. Routes to the specific Node.js subskill for HTTP servers, async patterns, streams, modules, testing, file system, crypto, workers, child processes, SQLite, WebAssembly, diagnostics, security, CLI tools, web APIs, and TypeScript execution.
 ---
 
 # Coding Node (Dispatcher)

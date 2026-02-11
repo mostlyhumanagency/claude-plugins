@@ -1,6 +1,6 @@
 ---
 name: using-react-server-components
-description: Use when working with React Server Components, Client Components, or Server Actions in Next.js/React apps
+description: Use when fetching data directly in components, accessing databases or filesystems from React, deciding between server and client components, reducing client bundle size, creating server actions for form submissions or mutations, using "use client" or "use server" directives, or structuring a Next.js app with Server Components. Also helps when seeing errors about hooks in server components or serialization issues across the server/client boundary.
 ---
 
 # Using React Server Components

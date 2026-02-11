@@ -1,6 +1,6 @@
 ---
 name: ts-check
-description: "This skill should be used when the user asks to 'check types', 'run type checking', 'verify TypeScript compiles', or encounters type errors that need batch analysis. Applies when the user wants a full project type-check with explanations of all errors, not just a single inline error."
+description: "Use when running a full project type-check, verifying TypeScript compiles without errors, analyzing multiple type errors at once, checking project health before a release, or when the user asks to check types, run tsc, or verify the project compiles. Runs tsc --noEmit and explains all errors found."
 ---
 
 # TypeScript Type Checking

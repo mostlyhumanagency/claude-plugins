@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-pnpm-monorepo
-description: "Use when setting up or configuring a pnpm + TypeScript monorepo — pnpm-workspace.yaml, project references, composite builds, tsc --build, shared types across packages, or integrating with Turborepo/Nx."
+description: "Use when setting up a pnpm workspace with TypeScript, configuring pnpm-workspace.yaml, adding TypeScript project references and composite builds, running tsc --build across packages, sharing types between packages, fixing cross-package import errors, or integrating pnpm monorepo with Turborepo or Nx."
 ---
 
 # Coding TypeScript pnpm Monorepo

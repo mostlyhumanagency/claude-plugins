@@ -1,6 +1,6 @@
 ---
 name: coding-arktype-errors
-description: Use when handling ArkType validation errors, customizing error messages, using the traversal API (ctx.reject, ctx.mustBe), or configuring ArkType behavior globally or per-type.
+description: "Use when validation fails and you need to read or customize error messages, format errors for users, use the traversal API (ctx.reject, ctx.mustBe), configure ArkType globally or per-scope, or debug ArkErrors. Also use for 'must be' messages, error summary formatting, or onUndeclaredKey behavior."
 ---
 
 # Using ArkType Errors and Configuration

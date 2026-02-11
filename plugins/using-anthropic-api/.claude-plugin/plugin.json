@@ -1,0 +1,10 @@
+{
+  "name": "using-anthropic-api",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for the Anthropic API — 13 skills, 2 agents, 2 commands covering messages, context management, prompt caching, thinking/effort, streaming, citations, media/files, structured outputs, tool use, built-in tools, server tools/MCP, agent skills, and Bedrock",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["anthropic", "claude-api", "messages", "tool-use", "streaming", "prompt-caching", "extended-thinking", "citations", "structured-outputs", "mcp", "bedrock", "agent-skills", "vision", "pdf"]
+}

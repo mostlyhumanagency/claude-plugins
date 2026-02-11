@@ -1,6 +1,6 @@
 ---
 name: using-node-crypto
-description: Use when working with Node.js v24 cryptographic operations — hashing, HMAC, encryption/decryption, password hashing, secure random, key generation, signing — or when you see ERR_CRYPTO_INVALID_STATE, ERR_OSSL_*, or ERR_CRYPTO_TIMING_SAFE_EQUAL_LENGTH errors.
+description: Use when hashing passwords, encrypting data, generating secure tokens, creating digital signatures, computing checksums, or implementing HMAC authentication in Node.js — covers node:crypto for SHA-256, bcrypt/scrypt, AES-GCM encryption, randomBytes, key pair generation, HMAC, and timing-safe comparison. Triggers on ERR_CRYPTO_INVALID_STATE, ERR_OSSL_*, ERR_CRYPTO_TIMING_SAFE_EQUAL_LENGTH.
 ---
 
 # Using Node Crypto

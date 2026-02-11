@@ -1,6 +1,6 @@
 ---
 name: managing-astro-sessions
-description: Use when managing server-side state in Astro — session configuration with storage drivers, Astro.session get/set/regenerate/destroy, typed sessions via App.SessionData in env.d.ts, session usage in actions, middleware, and API endpoints.
+description: "Use when storing user data across requests in Astro, implementing login sessions, or configuring session storage drivers. Use for tasks like 'add user sessions', 'store cart data between requests', 'set up session storage with Redis', or 'access session in middleware'. Also covers Astro.session get/set/regenerate/destroy, typing session data with generics, cookie-backed sessions, and accessing sessions in actions, middleware, and API endpoints."
 ---
 
 # Managing Astro Sessions

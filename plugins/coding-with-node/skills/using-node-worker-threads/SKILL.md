@@ -1,6 +1,6 @@
 ---
 name: using-node-worker-threads
-description: Use when working with Node.js worker_threads for CPU-intensive tasks, parallel processing, shared memory with SharedArrayBuffer, or message passing — or when you see ERR_WORKER_PATH, ERR_WORKER_INIT_FAILED, or ERR_WORKER_UNSERIALIZABLE_ERROR.
+description: Use when offloading CPU-heavy work to background threads in Node.js, parallelizing image processing or data crunching, sharing memory between threads, or passing messages between a main thread and workers — covers worker_threads, Worker, parentPort, SharedArrayBuffer, Atomics, MessageChannel, and thread pooling patterns. Triggers on ERR_WORKER_PATH, ERR_WORKER_INIT_FAILED, ERR_WORKER_UNSERIALIZABLE_ERROR.
 ---
 
 # Using Node Worker Threads

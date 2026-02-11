@@ -1,6 +1,6 @@
 ---
 name: coding-typescript
-description: Use only when a user wants an overview of available TypeScript skills or when unsure which TypeScript subskill applies. This skill routes to the most specific TypeScript skill.
+description: Use when writing, reviewing, debugging, refactoring, or configuring any TypeScript code. Covers core patterns, generics, narrowing, async/await, runtime validation, type operators, declaration files, classes, functional patterns, protocol-oriented design, tooling and tsconfig, build performance, linting with ESLint or oxlint, monorepos, and running TypeScript in Node.js. Routes to the most specific TypeScript subskill for the task at hand.
 ---
 
 # Coding TypeScript (Dispatcher)

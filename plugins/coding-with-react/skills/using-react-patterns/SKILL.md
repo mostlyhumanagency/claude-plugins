@@ -1,6 +1,6 @@
 ---
 name: using-react-patterns
-description: Use when working with modern React patterns like refs as props, Context providers, metadata components, Activity, useEffectEvent, and resource preloading
+description: Use when passing refs to child components, providing context to a component tree, adding page titles or meta tags from within components, preserving component state across tab switches or visibility changes, separating event logic from effect dependencies, cleaning up refs, or preloading resources. Covers ref as prop (no forwardRef), Context as provider, document metadata, Activity, useEffectEvent, and ViewTransition.
 ---
 
 # Using Modern React Patterns

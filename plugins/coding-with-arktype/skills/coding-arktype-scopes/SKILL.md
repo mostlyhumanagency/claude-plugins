@@ -1,6 +1,6 @@
 ---
 name: coding-arktype-scopes
-description: Use when creating ArkType scopes, modules, cyclic/recursive types across definitions, submodules, private aliases, generics, or composing type namespaces.
+description: "Use when organizing multiple related types, creating recursive or cyclic schemas, reusing type definitions across files, building type modules, defining generics, or using scopes, submodules, and private aliases in ArkType. Also use when types need to reference each other by name."
 ---
 
 # Using ArkType Scopes

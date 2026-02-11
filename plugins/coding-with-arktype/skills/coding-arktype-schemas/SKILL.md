@@ -1,6 +1,6 @@
 ---
 name: coding-arktype-schemas
-description: Use when defining ArkType types, object schemas, optional/default properties, arrays, tuples, unions, intersections, string/number constraints, or built-in keywords.
+description: "Use when defining a schema, creating a type validator, adding constraints to fields, making properties optional or setting defaults, or working with arrays/tuples/unions/intersections in ArkType. Also use for 'type is not assignable', constraint syntax, or ArkType keywords."
 ---
 
 # Using ArkType Schemas

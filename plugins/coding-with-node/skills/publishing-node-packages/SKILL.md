@@ -1,6 +1,6 @@
 ---
 name: publishing-node-packages
-description: Use when preparing a Node.js v24 package for npm — defining exports/types entry points, dual ESM/CJS publishing, planning releases, Node-API addons — or when consumers report ERR_PACKAGE_PATH_NOT_EXPORTED, missing types, or broken imports after upgrade.
+description: Use when publishing a package to npm, setting up package.json exports and typings, creating a dual ESM/CJS library, building native addons with Node-API, versioning releases, or fixing issues consumers report after install — covers exports map, types entry points, prepublish scripts, provenance, Node-API/NAPI, and semver strategy. Triggers on ERR_PACKAGE_PATH_NOT_EXPORTED, missing types, broken imports after upgrade.
 ---
 
 # Publishing Node Packages

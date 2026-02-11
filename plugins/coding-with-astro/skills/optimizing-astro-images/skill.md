@@ -1,6 +1,6 @@
 ---
 name: optimizing-astro-images
-description: Use when working with images in Astro — the Image and Picture components from astro:assets, responsive images with layout prop, SVG components, remote image authorization, images in content collections with schema image() helper, getImage() for programmatic use, or image optimization configuration.
+description: "Use when adding, optimizing, or resizing images in Astro using the Image and Picture components. Use for tasks like 'add responsive images', 'optimize images for production', 'serve WebP or AVIF', 'fix image layout shift', or 'use remote images in Astro'. Also covers the layout prop for responsive sizing, SVG handling, authorizing remote image domains, referencing images in content collections, getImage() for programmatic use, blur placeholders, and CLS prevention."
 ---
 
 # Optimizing Images in Astro

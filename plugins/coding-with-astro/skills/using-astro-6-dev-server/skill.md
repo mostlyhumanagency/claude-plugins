@@ -1,6 +1,6 @@
 ---
 name: using-astro-6-dev-server
-description: Use when working with Astro 6 beta features — the redesigned dev server using Vite Environment API, workerd runtime for Cloudflare Workers, accessing Durable Objects, KV Namespaces, R2 Storage, and Workers Analytics Engine during local development, or first-class Cloudflare Workers deployment.
+description: "Use when running the Astro 6 dev server with Cloudflare Workers locally, accessing Cloudflare bindings like Durable Objects, KV, R2, or Analytics Engine in development, or deploying to Cloudflare Workers. Use for tasks like 'run Astro with Cloudflare locally', 'access KV in dev', or 'fix workerd runtime errors'. Also covers the Vite Environment API integration, hot module replacement with workerd, and Astro 6 beta dev server features."
 ---
 
 # Using the Astro 6 Dev Server

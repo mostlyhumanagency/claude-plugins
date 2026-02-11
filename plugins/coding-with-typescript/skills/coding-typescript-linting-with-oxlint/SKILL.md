@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-linting-with-oxlint
-description: "Use when setting up or configuring oxlint (from the OXC project) for TypeScript projects — installation, oxlintrc.json configuration, categories, type-aware linting with tsgolint, running alongside ESLint, or CI integration."
+description: "Use when setting up oxlint for a TypeScript project, configuring oxlintrc.json, enabling type-aware linting with tsgolint, running oxlint alongside ESLint, adding oxlint to CI, choosing lint rule categories, or migrating from ESLint to oxlint for faster linting."
 ---
 
 # Coding TypeScript Linting with oxlint

@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-components
-description: This skill should be used when the user asks to "use LiftKit Button", "use LiftKit Card", "use Dropdown", "use Select", "use Tabs", "use TextInput", "use Navbar", "use Snackbar", "use Badge", "use IconButton", or sees LiftKit component prop errors
+description: "Use when adding a Button, Card, Dropdown, Select, Tabs, TextInput, Navbar, Snackbar, Badge, IconButton, or any LiftKit component to a page. Also use for LiftKit component prop errors, component API questions, or choosing the right LiftKit component for a UI pattern."
 ---
 
 # LiftKit Components

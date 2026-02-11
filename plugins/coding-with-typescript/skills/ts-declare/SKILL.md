@@ -1,6 +1,6 @@
 ---
 name: ts-declare
-description: "This skill should be used when the user asks to 'create declaration file', 'type an untyped package', 'augment a module', 'extend Express Request', or encounters TS7016 (could not find declaration file). Applies when the user needs .d.ts files for untyped packages or wants to add types to existing modules."
+description: "Use when creating .d.ts declaration files, typing an untyped npm package, augmenting an existing module (e.g. extending Express Request, adding fields to Window), writing ambient declarations for global variables, or fixing TS7016 (could not find declaration file). Also use when @types packages are missing and custom type stubs are needed."
 ---
 
 # TypeScript Declaration File Generation

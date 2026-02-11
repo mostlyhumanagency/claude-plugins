@@ -1,6 +1,6 @@
 ---
 name: using-node-child-processes
-description: Use when spawning external commands, running parallel processes, or using IPC with fork — or when you see ERR_CHILD_PROCESS_STDIO_MAXBUFFER, ENOENT (command not found), or EPERM errors related to child processes.
+description: Use when running shell commands from Node.js, executing external programs, automating build tools, spawning parallel Node processes with fork, piping data between processes, or capturing command output — covers child_process spawn, exec, execFile, fork, IPC messaging, and stdio configuration. Triggers on ERR_CHILD_PROCESS_STDIO_MAXBUFFER, ENOENT (command not found), EPERM errors.
 ---
 
 # Using Node Child Processes

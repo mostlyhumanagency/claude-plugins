@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-validation
-description: Use when validating runtime data in TypeScript — parsing JSON, handling unknown inputs, schema validation (Zod), type guards, assertion functions — or when you see TS2352 (unsafe type assertion), TS18046 (value is of type unknown), or TS2345 (argument not assignable after validation).
+description: Use when validating API responses, parsing JSON safely, handling unknown or untrusted input, setting up schema validation with Zod, writing type guards or assertion functions, replacing unsafe type assertions with proper validation, or adding runtime type checking at system boundaries in TypeScript. Also use when you see TS2352 (unsafe type assertion), TS18046 (value is of type unknown), or TS2345 (argument not assignable after validation).
 ---
 
 # Coding TypeScript Validation

@@ -1,6 +1,6 @@
 ---
 name: handling-node-async
-description: Use when Node.js v24 async behavior is confusing or broken — event loop ordering, timer quirks, callback/promise conversions, AsyncLocalStorage context loss, EventEmitter leaks, event-loop blocking — or when you see ERR_UNHANDLED_REJECTION, MaxListenersExceededWarning, or event loop lag.
+description: Use when writing async code in Node.js, managing concurrent operations, fixing race conditions, converting callbacks to promises, tracking request context across async boundaries, or handling event emitters — covers event loop, timers, async/await patterns, Promise.all/allSettled/race, AsyncLocalStorage, EventEmitter, and error propagation. Triggers on ERR_UNHANDLED_REJECTION, MaxListenersExceededWarning, event loop lag, unhandled promise rejections.
 ---
 
 # Handling Node Async

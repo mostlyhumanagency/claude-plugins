@@ -1,6 +1,6 @@
 ---
 name: working-with-node-streams
-description: Use when working with Node.js v24 streams — large data handling, backpressure issues, pipeline composition, Node/Web Streams interop — or when you see ERR_STREAM_PREMATURE_CLOSE, ERR_STREAM_WRITE_AFTER_END, or memory spikes from unbounded buffering.
+description: Use when processing large files, building data pipelines, implementing file uploads or downloads, streaming HTTP responses, handling CSV or log parsing, or fixing backpressure and memory issues in Node.js — covers Readable, Writable, Transform, Duplex, pipeline(), stream.compose(), and Web Streams interop. Triggers on ERR_STREAM_PREMATURE_CLOSE, ERR_STREAM_WRITE_AFTER_END, memory spikes from unbounded buffering.
 ---
 
 # Working With Node Streams

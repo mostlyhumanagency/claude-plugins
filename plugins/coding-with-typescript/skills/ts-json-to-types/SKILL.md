@@ -1,6 +1,6 @@
 ---
 name: ts-json-to-types
-description: "This skill should be used when the user asks to 'convert JSON to TypeScript', 'generate types from JSON', 'create interfaces from API response', or pastes JSON wanting types. Applies when the user has JSON data and needs corresponding TypeScript type definitions."
+description: "Use when converting JSON to TypeScript types, generating interfaces from an API response, creating type definitions from JSON data, or when the user pastes JSON and wants corresponding TypeScript interfaces or type aliases. Handles nested objects, arrays, optional fields, null values, and union types."
 ---
 
 # JSON to TypeScript Type Generation

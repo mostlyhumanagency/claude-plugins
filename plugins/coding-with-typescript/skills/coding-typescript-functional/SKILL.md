@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-functional
-description: Use when designing or reviewing functional programming patterns in TypeScript — pure functions, immutability, composition, FP-style error handling — or when you see TS2540 (cannot assign to readonly property), TS2345 (argument type mismatch in composition), or issues with function type inference.
+description: Use when writing pure functions, composing functions with pipe or flow, enforcing immutability, using map/filter/reduce patterns, implementing FP-style error handling (Result, Option, Either), or refactoring imperative code to a functional style in TypeScript. Also use when you see TS2540 (cannot assign to readonly), TS2345 (argument type mismatch in composition), TS2322 (return type mismatch in composed functions), or TS7006 (implicit any in higher-order functions).
 ---
 
 # Coding TypeScript Functional

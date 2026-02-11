@@ -1,6 +1,6 @@
 ---
 name: understanding-node-core
-description: Use when explaining Node.js v24 fundamentals — runtime model, globals, process lifecycle, event loop, errors, buffers, timers, security — or when you see ERR_WORKER_OUT_OF_MEMORY, SIGTERM handling issues, or process.exit vs process.exitCode confusion.
+description: Use when understanding how Node.js works under the hood, handling process signals and graceful shutdown, working with Buffers and binary data, managing global objects, or fixing process lifecycle issues — covers runtime model, globals, process events, exit codes, SIGTERM/SIGINT handling, Buffers, error classes, and v8 internals. Triggers on ERR_WORKER_OUT_OF_MEMORY, SIGTERM handling, process.exit vs process.exitCode confusion.
 ---
 
 # Understanding Node Core

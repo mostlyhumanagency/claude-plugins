@@ -1,6 +1,6 @@
 ---
 name: using-react-transitions
-description: Use when implementing concurrent UI with useTransition, startTransition, useDeferredValue, pending states, tab switching, search filtering, or navigation transitions
+description: Use when keeping the UI responsive during expensive updates, switching tabs without freezing, filtering or searching large lists while typing stays smooth, showing loading indicators without blocking user input, deferring non-urgent re-renders, or navigating between views without jank. Covers useTransition, startTransition, useDeferredValue, and pending state patterns.
 ---
 
 # Using React Transitions

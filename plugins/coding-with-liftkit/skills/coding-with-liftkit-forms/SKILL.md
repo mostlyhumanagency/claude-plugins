@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-forms
-description: This skill should be used when the user asks to "build a form", "create a login form", "use TextInput", "form validation", "form layout with LiftKit", "sign up form", "settings form", or needs guidance on building forms with LiftKit components
+description: "Use when building a form, login page, sign-up flow, settings form, or any input-heavy UI with LiftKit. Covers TextInput, form validation patterns, form layout, and assembling LiftKit components into complete form experiences."
 ---
 
 # LiftKit Forms

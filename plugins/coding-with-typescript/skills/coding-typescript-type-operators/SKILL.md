@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-type-operators
-description: Use when working with TypeScript type operators or type transformations — keyof, typeof, indexed access, conditional types, mapped types, template literal types — or when you see TS2536 (cannot use as index type), TS2344 (type does not satisfy constraint), or TS2589 (type instantiation is excessively deep).
+description: Use when building derived types, transforming types with keyof, typeof, indexed access, conditional types, mapped types, or template literal types in TypeScript. Also use when creating utility types, extracting or excluding union members, making properties optional or required, or when you see TS2536 (cannot use as index type), TS2344 (type does not satisfy constraint), TS2589 (excessively deep type instantiation), or TS2590 (union type too complex).
 ---
 
 # Coding TypeScript Type Operators

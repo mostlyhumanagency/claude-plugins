@@ -1,6 +1,6 @@
 ---
 name: using-astro-db
-description: Use when working with Astro DB — defining tables in db/config.ts with defineTable and column types, seeding data in db/seed.ts, querying with Drizzle ORM (select, insert, delete, where, join), filtering with eq/gt/like, batch operations, connecting to Turso/LibSQL for production, or pushing schema changes remotely.
+description: "Use when adding a database to an Astro project, defining tables, seeding data, or querying with Drizzle ORM. Use for tasks like 'add a database to Astro', 'create a users table', 'query data with Drizzle', 'seed the database', or 'deploy Astro DB to production with Turso'. Covers db/config.ts table definitions, db/seed.ts, select/insert/delete/join queries, filtering with eq/gt/like, batch operations, LibSQL, and pushing schema changes."
 ---
 
 # Using Astro DB

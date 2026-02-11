@@ -1,6 +1,6 @@
 ---
 name: coding-astro
-description: Use only when a user wants an overview of available Astro skills or when unsure which Astro skill applies. Routes to the correct sub-skill.
+description: "Use when building, reviewing, or debugging Astro websites and applications — covers components, routing, content collections, SSR, actions, middleware, sessions, view transitions, framework islands, endpoints, Astro DB, images, and Astro 6 features. Routes to the specific subskill."
 ---
 
 # Astro Overview

@@ -1,6 +1,6 @@
 ---
 name: using-react-use-api
-description: Use when reading Promises or Context in React components with Suspense integration
+description: Use when loading async data in client components with Suspense, reading context conditionally or inside loops, streaming data from server to client components, or resolving promises during render. Also use when seeing errors about missing Suspense boundaries or infinite re-renders from promises created in render. Covers the use() API for promises and context.
 ---
 
 ## Overview

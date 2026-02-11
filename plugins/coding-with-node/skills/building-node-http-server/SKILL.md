@@ -1,6 +1,6 @@
 ---
 name: building-node-http-server
-description: Use when building HTTP servers with Node.js core — request handling, routing, response streaming, graceful shutdown — or when you see EADDRINUSE, ERR_HTTP_HEADERS_SENT, ECONNRESET, or ECONNREFUSED.
+description: Use when building an API server, creating HTTP endpoints, handling requests and responses, implementing routing, streaming responses, adding HTTPS/TLS, or performing graceful shutdown in Node.js without a framework — covers node:http, createServer, request parsing, response streaming, keep-alive, and HTTPS setup. Triggers on EADDRINUSE, ERR_HTTP_HEADERS_SENT, ECONNRESET, ECONNREFUSED.
 ---
 
 # Building Node HTTP Server

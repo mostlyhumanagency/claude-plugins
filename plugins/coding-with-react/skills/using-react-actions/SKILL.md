@@ -1,6 +1,6 @@
 ---
 name: using-react-actions
-description: Use when working with React forms, async actions, or needing optimistic UI updates
+description: Use when building forms that submit data, showing pending or loading states on submit buttons, displaying optimistic updates before the server responds, handling form validation and error messages, creating reusable submit buttons, or wiring up async mutations with user feedback. Covers useActionState, useFormStatus, and useOptimistic.
 ---
 
 ## Overview

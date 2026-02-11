@@ -1,6 +1,6 @@
 ---
 name: building-astro-endpoints
-description: Use when creating API routes in Astro — static file endpoints with GET and getStaticPaths, server endpoints with POST/PUT/DELETE/PATCH, request body parsing, Response objects, redirects, binary responses, or the APIRoute type.
+description: "Use when building API routes or REST endpoints in Astro, returning JSON from a server route, handling POST/PUT/DELETE requests, parsing request bodies, or generating static files like RSS feeds and sitemaps. Use for tasks like 'create an API endpoint', 'add a JSON route', 'build an RSS feed', or 'handle form POST on the server'. Also covers APIRoute type, redirect responses, binary file responses, and getStaticPaths in endpoints."
 ---
 
 # Building Astro Endpoints

@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit-theming
-description: This skill should be used when the user asks to "customize LiftKit theme", "add dark mode", "change colors", "use ThemeProvider", "ThemeController", "color tokens", or sees CSS variable errors like "--light__*_clv" or "--dark__*_clv"
+description: "Use when customizing colors, adding dark mode, creating a custom theme, using ThemeProvider or ThemeController, working with color tokens, or fixing CSS variable errors like '--light__*_clv' or '--dark__*_clv' in LiftKit."
 ---
 
 # LiftKit Theming

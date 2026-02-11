@@ -1,6 +1,6 @@
 ---
 name: ts-strict
-description: "This skill should be used when the user asks to 'enable strict mode', 'migrate to strict TypeScript', 'add strictNullChecks', or wants to incrementally adopt TypeScript strict flags. Applies when the user wants to understand the cost of each strict flag and plan a gradual migration."
+description: "Use when enabling strict mode in TypeScript, migrating a project to strict incrementally, adding strictNullChecks or other individual strict flags, understanding the cost of each strict flag, or planning a gradual strict adoption strategy. Runs tsc with each strict flag in isolation to count errors and recommend an adoption order."
 ---
 
 # TypeScript Strict Mode Migration

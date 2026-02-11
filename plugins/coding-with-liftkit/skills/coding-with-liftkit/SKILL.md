@@ -1,6 +1,6 @@
 ---
 name: coding-with-liftkit
-description: This skill should be used when the user asks to "use LiftKit", "build with LiftKit", "Chainlift UI", or mentions LiftKit without specifying a subskill. Routes to the most specific LiftKit skill.
+description: "Use when building UIs with LiftKit, designing layouts, adding components, theming, or troubleshooting LiftKit rendering — covers installation, components, layout, materials, typography, forms, utility classes, theming, and recipes. Routes to the specific subskill."
 ---
 
 # LiftKit

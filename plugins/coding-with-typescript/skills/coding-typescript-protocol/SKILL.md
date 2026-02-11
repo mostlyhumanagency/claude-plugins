@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-protocol
-description: Use when designing protocol-oriented TypeScript with interface composition, capability-based design, mix-and-match behaviors, or when you see TS2415 (class incorrectly implements interface), TS2322 (structural compatibility issues), or TS2345 (argument not assignable to protocol type).
+description: Use when designing TypeScript code with interface composition instead of inheritance, defining small focused interfaces as capabilities, implementing mix-and-match behaviors, refactoring deep class hierarchies into composable protocols, or fixing structural compatibility issues. Also use when you see TS2415 (class incorrectly implements interface), TS2322 (structural type mismatch), TS2345 (argument not assignable to protocol type), or TS2559 (no properties in common).
 ---
 
 # Coding TypeScript Protocol-Oriented

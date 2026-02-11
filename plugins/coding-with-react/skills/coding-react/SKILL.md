@@ -1,6 +1,6 @@
 ---
 name: coding-react
-description: Use when working with React and unsure which subskill applies. Routes to the most specific React skill.
+description: Use when building, reviewing, debugging, or architecting React components and applications. Covers creating pages, building forms, handling user interactions, managing state, fetching and displaying data, adding loading and error states, optimizing performance, writing tests, and structuring component hierarchies. Routes to the specific subskill for Server Components, actions/forms, SSR streaming, transitions, error boundaries, patterns, compiler optimizations, testing, and the use() API.
 ---
 
 # React

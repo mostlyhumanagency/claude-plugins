@@ -1,6 +1,6 @@
 ---
 name: using-astro-middleware
-description: Use when intercepting requests and responses in Astro — the onRequest function in src/middleware.ts, context.locals for sharing data, sequence() for chaining middleware, defineMiddleware for TypeScript, rewrites with context.rewrite(), response manipulation, or cookie/header access in on-demand routes.
+description: "Use when adding authentication checks, logging, or request processing before pages render in Astro. Use for tasks like 'add auth middleware', 'check authentication before rendering', 'share data across the request with locals', 'chain multiple middleware', or 'rewrite requests based on conditions'. Covers creating middleware in src/middleware.ts, context.locals for data sharing, sequence() for chaining, rewriting requests, reading cookies and headers, and defineMiddleware for type safety."
 ---
 
 ## Overview

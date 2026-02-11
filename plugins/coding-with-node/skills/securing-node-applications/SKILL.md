@@ -1,6 +1,6 @@
 ---
 name: securing-node-applications
-description: Use when securing Node.js v24 applications — permission model, input validation, prototype pollution, path traversal, command injection, dependency security, HTTP headers, secrets management — or when reviewing code for security vulnerabilities.
+description: Use when hardening a Node.js app against attacks, validating user input, preventing injection vulnerabilities, reviewing code for security issues, managing secrets, setting HTTP security headers, or configuring the Node.js permission model — covers input sanitization, prototype pollution prevention, path traversal protection, command injection defense, dependency auditing, CORS, CSP, and --allow-fs/--allow-child-process flags.
 ---
 
 # Securing Node Applications

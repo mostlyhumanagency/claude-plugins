@@ -1,6 +1,6 @@
 ---
 name: routing-astro-pages
-description: Use when working with Astro file-based routing — static routes, dynamic routes with brackets, rest parameters, getStaticPaths, pagination with paginate(), redirects, rewrites, route priority, custom 404/500 pages, or excluding pages with underscore prefix.
+description: "Use when setting up pages and URLs in Astro, creating dynamic routes, implementing pagination, or configuring redirects and rewrites. Use for tasks like 'create a page', 'set up routing', 'add a dynamic route with [slug]', 'build paginated blog pages', 'customize the 404 page', or 'add URL redirects'. Also covers getStaticPaths, rest parameters, route priority, 500 error pages, and 'missing getStaticPaths' errors."
 ---
 
 # Astro Routing

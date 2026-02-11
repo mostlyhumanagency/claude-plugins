@@ -1,6 +1,6 @@
 ---
 name: coding-typescript-performance
-description: Use when optimizing TypeScript build speed, diagnosing slow compilation, tuning tsconfig for performance, avoiding expensive type-level patterns, or integrating alternative transpilers like swc/esbuild. Also use for TS errors related to excessive type instantiation (TS2589) or memory issues.
+description: Use when TypeScript compilation is slow, tsc takes too long, builds need to be faster, or the type checker runs out of memory. Also use when choosing between tsc, swc, and esbuild for transpilation, enabling incremental builds, tuning tsconfig for performance, simplifying expensive type-level patterns, or when you see TS2589 (excessively deep type instantiation) or out-of-memory errors during compilation.
 ---
 
 # Coding TypeScript Performance

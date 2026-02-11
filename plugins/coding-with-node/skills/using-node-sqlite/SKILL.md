@@ -1,6 +1,6 @@
 ---
 name: using-node-sqlite
-description: Use when working with Node.js v24 built-in SQLite module (node:sqlite) — opening databases, running queries, prepared statements, transactions — or when you see ERR_SQLITE_ERROR or database-related errors from the built-in sqlite module.
+description: Use when storing data locally in a Node.js app without a database server, building embedded databases for CLI tools or Electron apps, running SQL queries with the built-in node:sqlite module, or writing in-memory databases for testing — covers DatabaseSync, prepared statements, transactions, WAL mode, and parameterized queries. Triggers on ERR_SQLITE_ERROR, database-related errors from node:sqlite.
 ---
 
 # Using Node SQLite

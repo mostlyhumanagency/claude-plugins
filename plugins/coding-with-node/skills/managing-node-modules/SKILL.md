@@ -1,6 +1,6 @@
 ---
 name: managing-node-modules
-description: Use when Node.js v24 module behavior is unclear — ESM vs CommonJS, package.json "type"/"exports" setup, dynamic import interop, module resolution — or when you see ERR_MODULE_NOT_FOUND, ERR_REQUIRE_ESM, ERR_PACKAGE_PATH_NOT_EXPORTED, or ERR_UNKNOWN_FILE_EXTENSION.
+description: Use when importing or requiring modules in Node.js, migrating from CommonJS to ESM, configuring package.json type or exports fields, fixing broken imports, or resolving module compatibility issues — covers ESM vs CJS interop, dynamic imports, conditional exports, subpath patterns, and module resolution. Triggers on ERR_MODULE_NOT_FOUND, ERR_REQUIRE_ESM, ERR_PACKAGE_PATH_NOT_EXPORTED, ERR_UNKNOWN_FILE_EXTENSION.
 ---
 
 # Managing Node Modules

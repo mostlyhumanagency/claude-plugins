@@ -1,6 +1,6 @@
 ---
 name: using-astro-6-live-collections
-description: Use when working with Astro 6 live content collections — real-time data updates without rebuilds, explicit error handling through result objects, or fetching frequently-changing data like stock prices, inventory levels, or live feeds.
+description: "Use when fetching live or frequently-changing data in Astro 6 without rebuilding the site. Use for tasks like 'show real-time data without rebuilding', 'fetch live stock prices', 'display current inventory', or 'migrate static collections to live'. Covers live content collections that fetch data at request time, result objects with explicit error handling, configuring live loaders, and migrating from static to live collections."
 ---
 
 # Using Astro 6 Live Content Collections

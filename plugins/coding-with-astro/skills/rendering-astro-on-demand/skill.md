@@ -1,6 +1,6 @@
 ---
 name: rendering-astro-on-demand
-description: Use when enabling server-side rendering in Astro — installing adapters (Node, Netlify, Vercel, Cloudflare), the prerender export, output server mode, accessing cookies, request and response objects, setting headers and status codes, HTML streaming, or choosing between static and on-demand rendering.
+description: "Use when enabling SSR or server-side rendering in Astro, installing a deployment adapter, or switching pages between static and on-demand rendering. Use for tasks like 'set up SSR in Astro', 'deploy Astro to Vercel/Netlify/Cloudflare', 'make a page server-rendered', 'read cookies or headers at request time', or 'fix adapter configuration errors'. Also covers prerender export, output server/hybrid modes, Node/Netlify/Vercel/Cloudflare adapters, response status codes, and HTML streaming."
 ---
 
 # On-Demand / Server-Side Rendering in Astro

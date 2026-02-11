@@ -1,6 +1,6 @@
 ---
 name: integrating-frameworks-in-astro
-description: Use when using React, Vue, Svelte, Solid, Preact, or Alpine.js components inside Astro — client directives (client:load, client:idle, client:visible, client:media, client:only), hydration behavior, passing props and children, mixing multiple frameworks, nesting framework components, or sharing state between islands.
+description: "Use when adding React, Vue, Svelte, Solid, Preact, Lit, or Alpine.js components to an Astro page, making components interactive with client: directives, or mixing multiple UI frameworks on one page. Use for tasks like 'add React components to Astro', 'make a component interactive', 'use client:visible for lazy hydration', or 'share state between islands'. Also covers choosing between client:load/client:idle/client:visible/client:media/client:only, hydration errors, passing props to framework components, and nano stores for cross-island state."
 ---
 
 # Integrating UI Frameworks in Astro
