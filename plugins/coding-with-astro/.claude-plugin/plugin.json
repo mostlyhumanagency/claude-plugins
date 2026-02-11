@@ -1,0 +1,10 @@
+{
+  "name": "coding-with-astro",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for Astro 5/6 — 17 skills, 2 agents, 2 commands covering components, routing, content collections, SSR, actions, middleware, sessions, view transitions, framework islands, endpoints, Astro DB, and Astro 6 features",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["astro", "islands", "ssr", "content-collections", "view-transitions", "actions", "middleware", "astro-db", "cloudflare"]
+}
