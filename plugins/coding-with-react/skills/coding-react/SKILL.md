@@ -19,6 +19,8 @@ React is a library for building user interfaces with components, hooks, and a de
 | using-react-compiler | Setting up React Compiler for auto-memoization, removing manual `useMemo`/`useCallback`/`memo` |
 | using-react-ssr-streaming | Server-side rendering, Suspense streaming, `prerender`, hydration, partial pre-rendering |
 | using-react-patterns | Ref as prop, ref cleanup, `<Context>` provider, metadata tags, `Activity`, `useEffectEvent`, `ViewTransition` |
+| using-react-transitions | Concurrent UI with `useTransition`, `startTransition`, `useDeferredValue`, pending states |
+| using-react-error-boundaries | Error boundaries, `react-error-boundary` library, recovery patterns, error + Suspense composition |
 | testing-react | Testing components with Vitest + React Testing Library, testing actions and forms |
 
 If unsure, start with using-react-patterns for general React development.
