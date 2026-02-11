@@ -183,6 +183,54 @@
       "keywords": ["astro", "islands", "ssr", "content-collections", "view-transitions", "actions", "middleware", "astro-db", "cloudflare"],
       "category": "development",
       "strict": false
+    },
+    {
+      "name": "coding-with-tanstack-start",
+      "source": "./plugins/coding-with-tanstack-start",
+      "description": "Claude Code plugin for TanStack Start (React) — 13 skills, 2 agents, 2 commands covering server functions, middleware, routing, data loading, SSR, SPA mode, static prerendering, authentication, deployment, and more",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["tanstack", "tanstack-start", "tanstack-router", "react", "full-stack", "server-functions", "ssr", "vite"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "coding-with-tanstack-router",
+      "source": "./plugins/coding-with-tanstack-router",
+      "description": "Claude Code plugin for TanStack Router (React) — 10 skills, 2 agents, 2 commands covering type-safe routing, code splitting, data loading, context, head management, navigation blocking, route masking, preloading, and render optimizations",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["tanstack", "tanstack-router", "react", "routing", "type-safe", "code-splitting", "search-params", "file-based-routing"],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "coding-with-tanstack-query",
+      "source": "./plugins/coding-with-tanstack-query",
+      "description": "Claude Code plugin for TanStack Query (React Query) — 12 skills, 2 agents, 2 commands covering queries, mutations, caching, optimistic updates, infinite queries, prefetching, Suspense, SSR, testing, and TypeScript patterns",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mostly Human Agency",
+        "email": "dario.farzati@gmail.com"
+      },
+      "homepage": "https://mostlyhuman.agency",
+      "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+      "license": "MIT",
+      "keywords": ["tanstack", "tanstack-query", "react-query", "react", "caching", "data-fetching", "mutations", "optimistic-updates", "suspense", "ssr"],
+      "category": "development",
+      "strict": false
     }
   ]
 }

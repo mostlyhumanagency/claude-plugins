@@ -1,0 +1,10 @@
+{
+  "name": "coding-with-tanstack-query",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for TanStack Query (React Query) — 12 skills, 2 agents, 2 commands covering queries, mutations, caching, optimistic updates, infinite queries, prefetching, Suspense, SSR, testing, and TypeScript patterns",
+  "author": { "name": "Mostly Human Agency", "email": "dario.farzati@gmail.com" },
+  "homepage": "https://mostlyhuman.agency",
+  "repository": "https://github.com/mostlyhumanagency/claude-plugins",
+  "license": "MIT",
+  "keywords": ["tanstack", "tanstack-query", "react-query", "react", "caching", "data-fetching", "mutations", "optimistic-updates", "suspense", "ssr"]
+}
